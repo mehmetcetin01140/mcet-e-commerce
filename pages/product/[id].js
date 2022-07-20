@@ -43,11 +43,12 @@ export default function Product({product}) {
                             {discountedPrice} ₺
                             </h3>
                            </div>
+                   
+
 
                            <button>
                                 Sepete Ekle
                             </button>
-
                      </div>
                     <div className="product-content-description">
                         <h5>Açıklama</h5>
@@ -56,7 +57,9 @@ export default function Product({product}) {
                         <div className="free-shipping">
                         <img src="/ucretsizkargo.png"/>
                         </div>
+                
                     </Col>
+                    
                 </Row>
         
             </Container>

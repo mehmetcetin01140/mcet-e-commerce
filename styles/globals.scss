@@ -64,15 +64,28 @@ cursor: pointer;
 
     .category-list{
       display: flex;
-      
       padding-left: 0px;
       li{
+        position: relative;
         display: flex;
         align-items: center;
-
+        cursor: pointer;
+        &:hover{
+          border-bottom: 3px solid red;
+          .dropdown-content{
+            display: flex;
+          
+          }}
        width: 100%;
           height: 100%;
           line-height: 46px;
+          &:hover{
+            border-bottom: 3px solid red;
+            .dropdown{
+              display: block;
+            }
+            
+          }
         span{
           font-size: 13px;
           font-weight: 600;
@@ -82,6 +95,50 @@ cursor: pointer;
       
     }
   }
+}
+.dropdown{
+  position: relative !important;
+  display: inline-block;
+  .dropdown-content{
+    width:400px;
+    height: 220px;
+    background-color: white;
+    position: absolute !important;
+    display: none;
+    top: 30px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    z-index: 3;
+    right: 0;
+    min-width: 160px;
+    border-radius: 10px;
+    img{
+      border-radius: 10px;
+      border: 1px solid rgba(128, 128, 128, 0.42);
+      max-width: 60px;
+      max-height: 60px;
+      object-fit: contain;
+    }
+    span{
+   
+      line-height: 15px;
+      text-align: center;
+      width: 100%;
+      margin-top: 10px;
+    
+    }
+   
+  }
+  
+}
+.da{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+
 }
 .carousel{
   margin-top: 10px;
@@ -221,7 +278,7 @@ cursor: pointer;
   .price-and-vote{
     display: flex;
     align-items: center;
-
+    
     h3{
       font-weight: bold;
     }
@@ -235,9 +292,8 @@ cursor: pointer;
   }
 
   .product-content-buy{
-    display: flex;
     button{
-      width: 60%;
+      width: 100%;
       margin: auto;
       border-radius: 8px;
       background-color: #10bc49;
