@@ -9,7 +9,7 @@ export default function Header() {
     <div className='header-container'>
         <Container>
           <div className='header-top'>
-          <input type="text" />
+          <input type="text" placeholder='Ürün Ara...'/>
           <div className="cart">
           <FontAwesomeIcon icon={faCartShopping} />
           </div>

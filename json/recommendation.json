@@ -12,13 +12,14 @@
         "img" : "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTl9d1tQm9nDk2ZXdIYynReHvPU5tAmGZJW44KVB95SXa2uJOFAVKYrdwtgPrEG4Ev5d4AmxS4S4QJcALn_kyVALYrHaY6E75AZ0eggWrFPww_X_HlW706Q&usqp=CAE"
     },
     {
-        "id":3,
+        "id":2,
         "name":"Ingenico İde 280 Yazarkasa Pos",
-        "price":"3.134 TL",
-        "img" : "https://n11scdn.akamaized.net/a1/602_857/16/27/23/15/IMG-6490213189396442280.jpg"
+        "price":"3.134",
+        "img" : "https://n11scdn.akamaized.net/a1/602_857/16/27/23/15/IMG-6490213189396442280.jpg",
+        "desc" : "Ürün yazarkasa ve Pos özelliklerini birlikte içinde barındırır. Şık ve modern bir tasarımı vardır. Ürünün dokunmatik renkli bir ekranı vardır. Kolay menüleri sayesinde size kullanım kolaylığı sağlar. Hem Ethernet hem de GPRS kullanımlarına izin verir. Ayrıca Ethernet altyapısı olmayan işyerleri için de kullanımı tercih edilebilir. Yalnızca SIM kart temini ile bu durum halledilir."
     },
     {
-        "id":4,
+        "id":3,
         "name":"Herbalife Nutrition Mix",
         "price":"585,00",
         "img" : "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR97iitL3z531pmHExzA_W7kuXBhzMDEkzBuJ4vrgp20sfNokfqOdZA3U6LK9Ms-g9Ya9NbjxFiVF8pMFraIgR0jAk3YC6DIwhf-rirvYg&usqp=CAE"
