@@ -32,7 +32,8 @@ cursor: pointer;
     align-items: center;
     text-align: center;
     height: 80px;
-
+    
+    position: relative;
     input{
       width: 80%;
       padding: 10px;
@@ -72,10 +73,25 @@ cursor: pointer;
         cursor: pointer;
         &:hover{
           border-bottom: 3px solid red;
+          &:last-child{
+             &:hover{
+              .dropdown-content{
+                left:-100px
+              }
+             }
+          }
+          &:first-child{
+            &:hover{
+             .dropdown-content{
+               left:100px
+             }
+            }
+         }
           .dropdown-content{
             display: flex;
           
           }}
+          
        width: 100%;
           height: 100%;
           line-height: 46px;
@@ -105,7 +121,7 @@ cursor: pointer;
     background-color: white;
     position: absolute !important;
     display: none;
-    top: 30px;
+    top: 25px;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
     -o-transform: translate(-50%, 0);
@@ -125,7 +141,7 @@ cursor: pointer;
    
       line-height: 15px;
       text-align: center;
-      width: 100%;
+      width: 100px;
       margin-top: 10px;
     
     }
@@ -133,7 +149,7 @@ cursor: pointer;
   }
   
 }
-.da{
+.dropdown-items{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -322,10 +338,35 @@ cursor: pointer;
     }
   }
 }
-.footer-container{
-  height: 140px;
-  background-color: rgba(0, 0, 0, 0.292);
-  padding: 30px;
-  border-top-left-radius: 40px;
-}
 
+ 
+    .search-input-dropdown{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top:80px;
+      background-color: whitesmoke;
+      color: black;
+    z-index: 3;
+    border-radius: 3px;
+        .dropdown-content{
+          padding: 15px;
+          display: flex;
+          align-items: center;
+          transition: .1s all;
+          &:hover{
+            background-color: rgba(128, 128, 128, 0.378);
+            cursor: pointer;
+          }
+          img{
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+          }
+          span{
+            margin-left: 10px;
+            font-weight: bold;
+            
+          }
+        }
+    }

@@ -66,17 +66,17 @@ export default function CategoryList() {
             <span> {listItem.name}</span>
             <div className="dropdown">
               <div className="dropdown-content">
-                <div className="da">
+                <div className="dropdown-items">
 
                 <img src={listItem.test[0]?.image}/>
               <span> {listItem.test[0]?.name}</span>
                 </div>
-                <div className="da">
+                <div className="dropdown-items">
 
                 <img src={listItem.test[1]?.image}/>
                 <span> {listItem.test[1]?.name}</span>
                 </div>
-                <div className="da">
+                <div className="dropdown-items">
 
                 <img src={listItem.test[2]?.image}/>
                 <span> {listItem.test[2]?.name}</span>
