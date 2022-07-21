@@ -4,6 +4,7 @@ import HeaderBottom from './Header-Bottom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
 import SearchInput from './Search-Input'
+import Login from "../LoginSignup/login"
 export default function Header() {
   return (
     <div className='header-container'>
@@ -14,7 +15,7 @@ export default function Header() {
           <FontAwesomeIcon icon={faCartShopping} />
           </div>
           <div className="account">
-            <span>Üye Ol</span> <span>Giriş Yap</span>
+          <Login/>
           </div>
           </div>
         </Container>

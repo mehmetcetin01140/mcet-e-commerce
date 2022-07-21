@@ -1,14 +1,23 @@
-import React from 'react'
+
 import ProductData from "../../json/recommendation.json"
 import {Container,Row,Col} from "react-bootstrap"
 import ReactStars from "react-rating-stars-component";
 import RecommendProduct from "../../components/HomePage/Recommend-Product"
+import {addDoc,updateDoc,doc,collection,serverTimestamp} from "firebase/firestore"
+import {db} from "../../firebase"
+import React, { useState ,useContext} from 'react'
+import {AuthContext} from "../../contexts/AuthContext"
 export default function Product({product}) {
+    const {currentUser} = useContext(AuthContext)
     const firstExample = {
         size: 30,
         value: 2.5,
         edit: false
       };
+      const addToCart = () =>{
+        const ref = collection(db,'cart');
+        const docRef = addDoc(ref,{product:product,user:currentUser.email})
+      }
       const discountCalculator = () =>{
         const replacedPrice = (Number(product.price.replace(".","")))
         const calculator = replacedPrice*0.10.toFixed(2)
@@ -46,7 +55,7 @@ export default function Product({product}) {
                    
 
 
-                           <button>
+                           <button onClick={addToCart}>
                                 Sepete Ekle
                             </button>
                      </div>
