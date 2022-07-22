@@ -11,15 +11,14 @@ export default function AuthContextProvider({children}){
     useEffect(()=>{
         return auth.onIdTokenChanged(async (user) =>{
             if(!user){
-                console.log("kullanıcı bulunamadı")
+              
                 setCurrentUser(null)
                 setLoading(false)
                 return
             }
 
             const token = await user.getIdToken()
-            console.log('token:' + token)
-            console.log('user:' + user)
+      
             setCurrentUser(user)
             setLoading(false)
         })

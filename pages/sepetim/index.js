@@ -1,11 +1,17 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import Cart from "../../components/Cart/Cart"
+
 
 const Index = () => {
   return (
-    <div>
-      <Cart/>
-    </div>
+      <Container>
+          
+        <Cart/>
+      </Container>
+  
+    
+
   );
 }
 

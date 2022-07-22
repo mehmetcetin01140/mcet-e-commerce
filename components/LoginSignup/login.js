@@ -6,7 +6,6 @@ import {signInWithPopup} from "firebase/auth"
 import {AuthContext} from "../../contexts/AuthContext"
 export default function Login() {
     const {currentUser} = useContext(AuthContext)
-    console.log(currentUser);
   const loginGoogle = () => {
     signInWithPopup(auth,provider)
   }
