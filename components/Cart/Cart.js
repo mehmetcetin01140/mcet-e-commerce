@@ -3,7 +3,8 @@ import React,{useEffect,useState,useContext} from 'react';
 import {db} from "../../firebase"
 import { collection,onSnapshot,query,orderBy,where } from 'firebase/firestore';
 import {AuthContext} from "../../contexts/AuthContext"
-import {Row,Col} from "react-bootstrap"
+import {Row,Col, ListGroupItem} from "react-bootstrap"
+import Card from "./Card"
 export default function Cart() {
   const [cartItems,setCartItems] = useState([])
 
@@ -22,15 +23,13 @@ export default function Cart() {
       
     }
 }, [currentUser]);
-      
-console.log(cartItems)
+
   return (
     <div className='cart-container'>
       <Row>
         <Col md={9}>
-        {cartItems.map(item=>(
-          <h1>{item.product.name}</h1>
-        ))}
+     
+        <Card cartData={cartItems}/>
         </Col>
         <Col md={3}>
           <h5>Seçilen Ürünler</h5>
