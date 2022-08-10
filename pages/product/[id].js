@@ -3,20 +3,46 @@ import ProductData from "../../json/recommendation.json"
 import {Container,Row,Col} from "react-bootstrap"
 import ReactStars from "react-rating-stars-component";
 import RecommendProduct from "../../components/HomePage/Recommend-Product"
-import {addDoc,updateDoc,doc,collection,serverTimestamp} from "firebase/firestore"
+import {addDoc,updateDoc,doc,collection,serverTimestamp,query,where,onSnapshot} from "firebase/firestore"
 import {db} from "../../firebase"
-import React, { useState ,useContext} from 'react'
+import React, { useState ,useContext,useEffect} from 'react'
 import {AuthContext} from "../../contexts/AuthContext"
 export default function Product({product}) {
+    const [cartItems,setCartItems] = useState([])
     const {currentUser} = useContext(AuthContext)
     const firstExample = {
         size: 30,
         value: 2.5,
         edit: false
       };
-      const addToCart = () =>{
+      useEffect(() => {
+        const ref = collection(db,'cart')
+        if(currentUser){
+    
+          const q = query(ref,where("user","==", currentUser?.email))
+          const unsub = onSnapshot(q,(snap)=>{
+                  setCartItems(snap.docs.map(doc=>(
+                    {...doc.data(),product:doc.data().product,id:doc.id}
+                  )))
+          })
+          return unsub
+          
+        }
+    }, [currentUser]);
+      const addToCart = (id) =>{
         const ref = collection(db,'cart');
-        const docRef = addDoc(ref,{product:product,user:currentUser.email})
+        const findProduct = cartItems.find(elem=>elem.product.id === id)
+        if(findProduct){
+            const refe = doc(db,"cart",findProduct.id)
+            const newQuantity = {product:{...product,quantity:findProduct.product.quantity+=1}}
+            updateDoc(refe,newQuantity)
+       }
+       else{
+      addDoc(ref,{product:{...product,quantity:1},user:currentUser.email})
+       }
+            
+            
+          
       }
       const discountCalculator = () =>{
         const replacedPrice = (Number(product.price.replace(".","")))
@@ -55,7 +81,7 @@ export default function Product({product}) {
                    
 
 
-                           <button onClick={addToCart}>
+                           <button onClick={()=>addToCart(product.id)}>
                                 Sepete Ekle
                             </button>
                      </div>

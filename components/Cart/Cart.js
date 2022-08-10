@@ -3,7 +3,7 @@ import React,{useEffect,useState,useContext} from 'react';
 import {db} from "../../firebase"
 import { collection,onSnapshot,query,orderBy,where } from 'firebase/firestore';
 import {AuthContext} from "../../contexts/AuthContext"
-import {Row,Col, ListGroupItem} from "react-bootstrap"
+import {Row,Col} from "react-bootstrap"
 import Card from "./Card"
 export default function Cart() {
   const [cartItems,setCartItems] = useState([])
@@ -23,7 +23,16 @@ export default function Cart() {
       
     }
 }, [currentUser]);
-
+  const totalPrice = () =>{
+   const multiplyProductPriceAndQuantity = cartItems.map(item=>{
+    return (Number(item.product.price)*item.product.quantity)
+    })
+    const sum = multiplyProductPriceAndQuantity.reduce(function(sum, number) {
+      const updatedSum = sum + number;
+      return updatedSum;
+    }, 0);
+    return sum
+  }
   return (
     <div className='cart-container'>
       <Row>
@@ -31,10 +40,19 @@ export default function Cart() {
      
         <Card cartData={cartItems}/>
         </Col>
-        <Col md={3}>
-          <h5>Seçilen Ürünler</h5>
-      <h3>{cartItems[0]?.product?.price} TL</h3>
-      <button>Alışverişi Tamamla</button>
+        <Col md={3} className='cart-complete'>
+          <h5>Sipariş Özeti</h5>
+          <span>Sipariş Tutarı {`(${cartItems.length} ürün)`}: {(totalPrice()-(totalPrice()*0.18)).toFixed(3)} TL</span>
+          <br/>
+      <span>KDV {"(%18)"}: {(totalPrice()*0.18).toFixed(3)<1000 ? (totalPrice()*0.18).toFixed(3).replaceAll("0.",""):(totalPrice()*0.18).toFixed(3)} TL</span>
+      <br/>
+      <span>Kargo Ücreti: Ücretsiz</span>
+          <hr/>
+      <h5> Toplam Tutar : {totalPrice().toFixed(3)} TL</h5>
+      <div className='cart-button'>
+
+      <button onClick={totalPrice}>Alışverişi Tamamla</button>
+      </div>
         </Col>
       </Row>
   

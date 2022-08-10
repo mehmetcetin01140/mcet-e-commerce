@@ -5,13 +5,9 @@ import Cart from "../../components/Cart/Cart"
 
 const Index = () => {
   return (
-      <Container>
-          
+      <Container className='mt-4'>   
         <Cart/>
       </Container>
-  
-    
-
   );
 }
 
