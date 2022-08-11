@@ -13,15 +13,100 @@
     },
     {
         "id":2,
-        "name":"Ingenico İde 280 Yazarkasa Pos",
+        "name":"Huawei Watch GT2 46mm Ekran Koruyucu",
         "price":"3.134",
-        "img" : "https://n11scdn.akamaized.net/a1/602_857/16/27/23/15/IMG-6490213189396442280.jpg",
-        "desc" : "Ürün yazarkasa ve Pos özelliklerini birlikte içinde barındırır. Şık ve modern bir tasarımı vardır. Ürünün dokunmatik renkli bir ekranı vardır. Kolay menüleri sayesinde size kullanım kolaylığı sağlar. Hem Ethernet hem de GPRS kullanımlarına izin verir. Ayrıca Ethernet altyapısı olmayan işyerleri için de kullanımı tercih edilebilir. Yalnızca SIM kart temini ile bu durum halledilir."
+        "img" : "https://n11scdn.akamaized.net/a1/1024/elektronik/akilli-saat-aksesuarlari/huawei-watch-gt2-46-mm-ekran-koruyucu-nano-esnek-cam__0693517701781760.jpg",
+        "desc" : "Huawei Watch GT2 AKILLI SAAT KIRILMAZ CAM EKRAN KORUYUCU yüksek kalite materyalden üretilmiştir. Huawei Watch GT2 ve 46mm ekranlara uyumludur. Ekranını kir ve darbeden korur, çizilmesini önler, Kolayca takıp çıkartılabilir, Hiçbir iz bırakmaz. Harika kalıp kesimi sayesinde ekrana mükemmel uyar , Uzun ömürlüdür, Bütün darbelere karşı maximum korur. "
     },
     {
         "id":3,
         "name":"Herbalife Nutrition Mix",
         "price":"1.200",
         "img" : "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR97iitL3z531pmHExzA_W7kuXBhzMDEkzBuJ4vrgp20sfNokfqOdZA3U6LK9Ms-g9Ya9NbjxFiVF8pMFraIgR0jAk3YC6DIwhf-rirvYg&usqp=CAE"
+    },
+    {
+        "id":4,
+        "name":"DeepSEA Gri Erkek Dar Kesim Kargo Kapri",
+        "price":"574",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/deepsea-gri-erkek-dar-kesim-kargo-kapri-2002014__0549444973981877.jpg",
+        "desc" : "DeepSEA Kargo Kapri Üzerinde desenleri bulunan Slim fit Kargo kapri oldukça kullanışlı bir modeldir. Slim Fit Kargo Kapri Birden fazla renk seçeneğine sahiptir. Çok Cepli Slim Fit Kargo Kapri'nin İçeriği %98 Pamuk, %2 Likra Boyu diz hizasında bulunan Çok Cepli kapri'nin kapanma türü fermuarlı ve düğmelidir. Çok Cepli kargo Kapri tek parça halinde gönderilecektir. Çok Cepli kargo kapriyi Yaz Aylarında salaş Bir Tişört ve spor ayakkabı ile kombinleyebilirsiniz Çekimde kullanılan aksesuarlar ürün fiyatına dahil değildir."
+    },
+    {
+        "id":5,
+        "name":"Düğmeli Polo Yaka Cepsiz Slim Fit Dar Kesim Düz Tişört",
+        "price":"1.034",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/dugmeli-polo-yaka-cepsiz-slim-fit-dar-kesim-duz-tisort__1460692309948198.jpg",
+        "desc" : "Ürünümüz Bisiklet Yaka olup SlimFit'dir Ürünün Kumaşı %95 PAMUK %5 Elastan içermektedir. Manken Ölcüleri :Boy 180 cm Göğüs : 90 cm Bel:68 cm Kilo: 76 Bedeni L"
+    },
+    {
+        "id":6,
+        "name":"Slim Fit Dar Kesim %100 Pamuk Bisiklet Yaka Kısa Kollu Tişört",
+        "price":"3.134",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/acco-altinyildiz-classics-erkek-tshirt-paketli__0559253731803412.jpg",
+        "desc" : "%100 Pamuk, Düz Lacivert, Bisiklet Yaka, Slim Fit, Kısa Kol, Cepsiz, 4 Mevsim, AC&CO / Altınyıldız Classics Slim Fit Bisiklet Yaka Kısa Kollu Pamuklu Tişört, Manken Ölçüleri: Boy:1.89Cm, Kilo:80 Kg, Ürün Bedeni:L, Ürün Kodu: 4A4800000001LAC. Yıkama Talimatı: Makine yıkama suyu sıcaklığı 30 dereceyi geçmemelidir. Trikloretilen Hariç Kuru Temizleme Kimyasalları Kullanılır. Çamaşır Suyu Konamaz. Kurutma Makinesinde Kurutulamaz. Düşük Isıda Ütülenmelidir. "
+    },
+    {
+        "id":7,
+        "name":"Armadillos Erkek Beli Lastikli Şort Kapri - Füme",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/sade-erkek-sort-kapri-rahat-bay-sort__0546505846131299.jpg",
+        "desc" : "YIKAMA: 30-40 C° de makinede hassas yıkayınız. ÇAMAŞIR SUYU: Çamaşır Suyu kullanılmaz. KURUTMA: Normal Kurutma yapılabilir. ÜTÜ: Düşük Isıda Buhar ya da Kurutarak Ütüleme. GİYİM TARZI: Günlük / Casual Spor BEDEN BİLGİSİ: Normal Fit Kesim KUMAŞ: Yüzde 70 Pamuk - Yüzde 30 Elastik Polyester BEL KISMI: Lastikli + kordon ip"
+    },
+    {
+        "id":8,
+        "name":"Düğmeli Polo Yaka Cepsiz Slim Fit Dar Kesim Düz Tişört",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/dugmeli-polo-yaka-cepsiz-slim-fit-dar-kesim-duz-tisort__1282578207073971.jpg",
+        "desc" : "%55 Pamuk, %45 Polyester, Düz Lacivert-Lacivert, Casual Model, Slim Fit, Polo Yaka, Kısa Kol, Cepsiz, 2021 Yaz, AC Basics Slim Fit Polo Yaka Tişört, Ürün Bedeni: M, Manken Ölçüleri: Boy: 1.89cm, Kilo: 80kg, Ürün Kodu: 4A4820200047LAA, Satın alacağınız bu ürüne, tavsiye edilen yıkama koşullarında çekmezlik garantisi veriyoruz. Çekmezlik önleyici özel iplikler ve örgü tekniği ile üretilmiştir."
+    },
+    {
+        "id":9,
+        "name":"Ds Damat Regular Fit Siyah %100 Pamuk Polo Yaka T-shirt",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/ds-damat-regular-fit-siyah-100-pamuk-polo-yaka-t-shirt__0789795285400452.jpg",
+        "desc" : "Ds Damat Regular Fit Siyah %100 Pamuk Polo Yaka T-shirt"
+    },
+    {
+        "id":10,
+        "name":"Slim Fit Dar Kesim %100 Pamuk Polo Yaka Tişört",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/altinyildiz-classics-erkek-tshirt-basic__1002210258937998.jpg",
+        "desc" : "%100 Pamuk, Düz Siyah, Casual Model, Slim Fit, Polo Yaka, Kısa Kol, Cepsiz, 2021 Yaz, Altınyıldız Classics Polo Yaka Cepsiz Slim Fit Dar Kesim %100 Koton Polo Yaka Tişört, Ürün Bedeni: L, Manken Bilgileri; Boy: 1.89cm, Kilo: 80kg, Ürün Kodu: 4A4821200055SYH."
+    },
+    {
+        "id":11,
+        "name":"Pembe Bisiklet Yaka Erkek T-shirt - Slim Fit",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/pembe-bisiklet-yaka-erkek-tshirt-slim-fit__0601535956115076.jpg",
+        "desc" : "Manken Ürün Bedeni:  Boy: 189 cm  Kilo: 80 kg Göğüs : 101 cm  Karışım : %50 PAMUK %50 POLYESTER Kesim : SLIM FITYaka : BİSİKLET YAKA"
+    },
+    {
+        "id":12,
+        "name":"Buffola Baskılı Erkek Şort Kapri",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/erkek-spor-sort-fitness-kapri-4-renk__0509390883406767.jpg",
+        "desc" : "YIKAMA: 30-40 C° de makinede hassas yıkayınız. ÇAMAŞIR SUYU: Çamaşır Suyu kullanılmaz. KURUTMA: Normal Kurutma yapılabilir. ÜTÜ: Düşük Isıda Buhar ya da Kurutarak Ütüleme. GİYİM TARZI: Günlük / Casual Spor BEDEN BİLGİSİ: Normal Fit Kesim KUMAŞ: Yüzde 70 Pamuk - Yüzde 30 Elastik Polyester BEL KISMI: Lastikli ve kendi kumaşındandır. "
+    },
+    {
+        "id":13,
+        "name":"Mavi - Mavi Logo Baskılı Siyah Tişört",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/mavi-mavi-logo-baskili-siyah-tisort-065781-900__1286972897892420.",
+        "desc" : "%100 Pamuk Model Ölçüleri: Boy 1.89 cm Kalça: 100 cm Model Üzerindeki Ürün Bedeni Jeanler İçin Bel: 30 Boy: 32 Diğer Ürünlerde:L"
+    },
+    {
+        "id":14,
+        "name":"Slim Fit Günlük Rahat Spor Örme Şort",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/acco-altinyildiz-classics-erkek-sort__0295985423816296.jpg",
+        "desc" : "%85 Pamuk %15 Polyester, Lacivert, Casual Model, Slim Fit, Cepli, Normal Bel, 2021 Yaz, AC&Co / Altınyıldız Classics Slim Fit Günlük Rahat Spor Örme Şort, Ürün Bedeni: L, Manken Bilgileri: 1.89Cm, Kilo: 80Kg, Ürün Kodu : 4A9521200004LAC. Yıkama Talimatı: Makine yıkama suyu sıcaklığı 30 dereceyi geçmemelidir. Hassas Kuru Temizleme Yapılabilir. Ağartıcı Kullanılmaz. Sererek Kurutunuz. Düşük Isıda Ütülenmelidir. Duyarlı Moda; Geri dönüştürülerek elde edilen rejenere ipliklerden üretilen bu özel ürünümüzle tasarım kadar doğayı da önemsiyoruz. Gezegenimizi daha temiz ve yaşanılası bir yere dönüştürmek için Altınyıldız Classics’in online alışverişe özel olan bu serisini keşfedin."
+    },
+    {
+        "id":15,
+        "name":"Steps Kargo Cepli İndigo Erkek Şort",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/steps-kargo-cepli-indigo-erkek-sort__1000191290448673.jpg",
+        "desc" : "Kumaş Bilgisi : %100 Polyester Polyester kumaş, parlak, sağlam, kaygan ve hafif bir kumaştır Kolayca kurur. Pek ütü gerektirmez, kırışmaz. Ütüyle verilen şekli uzun süre muhafaza eder Bakımı çok kolaydır, evde makinede yıkanabilir. Kuru temizleme gerektirmez Ayrıca kullanımdan dolayı iz yapmaz."
     }
+ 
 ]

@@ -6,7 +6,7 @@ export default function RecommendProduct() {
     const cardLoop = () =>{
         return(
                 
-                    recommendationData.map(data=>(
+                    recommendationData.slice(0,4).map(data=>(
                         <CardComponent data={data}/>
                     ))
                 

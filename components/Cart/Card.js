@@ -52,12 +52,9 @@ export default function Card({cartData}) {
                     <Col lg={2} md={12} className="card-price-and-quantity">
                     <h5>Fiyat : {item.product.price} TL</h5> 
                     Ücretsiz Kargo
-                    </Col>
-                    <div className='card-shipping'>
-                 
                     <img src={"/yurtici.svg"}/>
-                    
-                    </div>
+                    </Col>
+                
                       <hr/>
                   
                     </>
