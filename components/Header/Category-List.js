@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { Container } from "react-bootstrap";
+import Link from "next/link"
+import { listManipulationForStaticPaths } from "../../helpers/ManipulatedListForStaticPaths";
 export const List = [
   {
     name: "Moda",
@@ -56,6 +58,7 @@ export const List = [
     { name: "Navigasyon", image: "/category/navigation.png" },
   ], },
 ];
+
 export default function CategoryList() {
   
   
@@ -68,22 +71,21 @@ export default function CategoryList() {
             <span> {listItem.name}</span>
             <div className="dropdown">
               <div className="dropdown-content">
+            {
+              listItem.test.map((element,i)=>(
                 <div className="dropdown-items">
-
-                <img src={listItem.test[0]?.image}/>
-              <span> {listItem.test[0]?.name}</span>
+            <Link href={`kategori/${element.name}`}>
+            <a>
+                  
+                <img src={element.image}/>
+              <span> {element.name}</span>
+               
+            </a>
+            </Link>
                 </div>
-                <div className="dropdown-items">
-
-                <img src={listItem.test[1]?.image}/>
-                <span> {listItem.test[1]?.name}</span>
-                </div>
-                <div className="dropdown-items">
-
-                <img src={listItem.test[2]?.image}/>
-                <span> {listItem.test[2]?.name}</span>
-              
-                </div>
+              ))
+            }
+                
                 </div>
             </div>
           </li>

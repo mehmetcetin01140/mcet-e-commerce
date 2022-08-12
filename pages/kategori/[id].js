@@ -1,12 +1,13 @@
-import React from 'react'
-import { useRouter } from "next/router";
+import React, { useEffect } from 'react'
 import {Container,Row} from "react-bootstrap"
 import recommendationData from "../../json/recommendation.json"
 import CardComponent from "../../components/HomePage/Card"
-import {List} from "../../components/Header/Category-List"
-import CheckSelectedCategory from '../../helpers/CheckSelectedCategory';
+import { listManipulationForStaticPaths } from '../../helpers/ManipulatedListForStaticPaths';
 export default function Category({product}) {
    
+    useEffect(()=>{
+        listManipulationForStaticPaths()
+    },[])
     const cardLoop = () =>{
         return(
                 
@@ -16,9 +17,10 @@ export default function Category({product}) {
                 
         )
     }
-
     const card = cardLoop()
-  
+
+  console.log(listManipulationForStaticPaths());
+ 
   return (
     <Container className='category'>
        <Row>
@@ -31,7 +33,7 @@ export default function Category({product}) {
   )
 }
 export const getStaticProps = async({params}) =>{
-    const products = CheckSelectedCategory(params.id)
+    const products = recommendationData.filter(category=>category.category===params.id)
     return{
         props:{
             product:products
@@ -40,8 +42,8 @@ export const getStaticProps = async({params}) =>{
 }
 export const getStaticPaths = async() =>{
 
-    const paths = List.map(product=>({
-        params:{id:product.name.toLowerCase()}
+    const paths = listManipulationForStaticPaths().map(product=>({
+        params:{id:product.toLowerCase()}
     }))
     return {paths,fallback:false}
 }

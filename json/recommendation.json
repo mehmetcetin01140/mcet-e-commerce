@@ -29,84 +29,196 @@
         "name":"DeepSEA Gri Erkek Dar Kesim Kargo Kapri",
         "price":"574",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/deepsea-gri-erkek-dar-kesim-kargo-kapri-2002014__0549444973981877.jpg",
-        "desc" : "DeepSEA Kargo Kapri Üzerinde desenleri bulunan Slim fit Kargo kapri oldukça kullanışlı bir modeldir. Slim Fit Kargo Kapri Birden fazla renk seçeneğine sahiptir. Çok Cepli Slim Fit Kargo Kapri'nin İçeriği %98 Pamuk, %2 Likra Boyu diz hizasında bulunan Çok Cepli kapri'nin kapanma türü fermuarlı ve düğmelidir. Çok Cepli kargo Kapri tek parça halinde gönderilecektir. Çok Cepli kargo kapriyi Yaz Aylarında salaş Bir Tişört ve spor ayakkabı ile kombinleyebilirsiniz Çekimde kullanılan aksesuarlar ürün fiyatına dahil değildir."
+        "desc" : "DeepSEA Kargo Kapri Üzerinde desenleri bulunan Slim fit Kargo kapri oldukça kullanışlı bir modeldir. Slim Fit Kargo Kapri Birden fazla renk seçeneğine sahiptir. Çok Cepli Slim Fit Kargo Kapri'nin İçeriği %98 Pamuk, %2 Likra Boyu diz hizasında bulunan Çok Cepli kapri'nin kapanma türü fermuarlı ve düğmelidir. Çok Cepli kargo Kapri tek parça halinde gönderilecektir. Çok Cepli kargo kapriyi Yaz Aylarında salaş Bir Tişört ve spor ayakkabı ile kombinleyebilirsiniz Çekimde kullanılan aksesuarlar ürün fiyatına dahil değildir.",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":5,
         "name":"Düğmeli Polo Yaka Cepsiz Slim Fit Dar Kesim Düz Tişört",
         "price":"1.034",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/dugmeli-polo-yaka-cepsiz-slim-fit-dar-kesim-duz-tisort__1460692309948198.jpg",
-        "desc" : "Ürünümüz Bisiklet Yaka olup SlimFit'dir Ürünün Kumaşı %95 PAMUK %5 Elastan içermektedir. Manken Ölcüleri :Boy 180 cm Göğüs : 90 cm Bel:68 cm Kilo: 76 Bedeni L"
+        "desc" : "Ürünümüz Bisiklet Yaka olup SlimFit'dir Ürünün Kumaşı %95 PAMUK %5 Elastan içermektedir. Manken Ölcüleri :Boy 180 cm Göğüs : 90 cm Bel:68 cm Kilo: 76 Bedeni L",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":6,
         "name":"Slim Fit Dar Kesim %100 Pamuk Bisiklet Yaka Kısa Kollu Tişört",
         "price":"3.134",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/acco-altinyildiz-classics-erkek-tshirt-paketli__0559253731803412.jpg",
-        "desc" : "%100 Pamuk, Düz Lacivert, Bisiklet Yaka, Slim Fit, Kısa Kol, Cepsiz, 4 Mevsim, AC&CO / Altınyıldız Classics Slim Fit Bisiklet Yaka Kısa Kollu Pamuklu Tişört, Manken Ölçüleri: Boy:1.89Cm, Kilo:80 Kg, Ürün Bedeni:L, Ürün Kodu: 4A4800000001LAC. Yıkama Talimatı: Makine yıkama suyu sıcaklığı 30 dereceyi geçmemelidir. Trikloretilen Hariç Kuru Temizleme Kimyasalları Kullanılır. Çamaşır Suyu Konamaz. Kurutma Makinesinde Kurutulamaz. Düşük Isıda Ütülenmelidir. "
+        "desc" : "%100 Pamuk, Düz Lacivert, Bisiklet Yaka, Slim Fit, Kısa Kol, Cepsiz, 4 Mevsim, AC&CO / Altınyıldız Classics Slim Fit Bisiklet Yaka Kısa Kollu Pamuklu Tişört, Manken Ölçüleri: Boy:1.89Cm, Kilo:80 Kg, Ürün Bedeni:L, Ürün Kodu: 4A4800000001LAC. Yıkama Talimatı: Makine yıkama suyu sıcaklığı 30 dereceyi geçmemelidir. Trikloretilen Hariç Kuru Temizleme Kimyasalları Kullanılır. Çamaşır Suyu Konamaz. Kurutma Makinesinde Kurutulamaz. Düşük Isıda Ütülenmelidir. ",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":7,
         "name":"Armadillos Erkek Beli Lastikli Şort Kapri - Füme",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/sade-erkek-sort-kapri-rahat-bay-sort__0546505846131299.jpg",
-        "desc" : "YIKAMA: 30-40 C° de makinede hassas yıkayınız. ÇAMAŞIR SUYU: Çamaşır Suyu kullanılmaz. KURUTMA: Normal Kurutma yapılabilir. ÜTÜ: Düşük Isıda Buhar ya da Kurutarak Ütüleme. GİYİM TARZI: Günlük / Casual Spor BEDEN BİLGİSİ: Normal Fit Kesim KUMAŞ: Yüzde 70 Pamuk - Yüzde 30 Elastik Polyester BEL KISMI: Lastikli + kordon ip"
+        "desc" : "YIKAMA: 30-40 C° de makinede hassas yıkayınız. ÇAMAŞIR SUYU: Çamaşır Suyu kullanılmaz. KURUTMA: Normal Kurutma yapılabilir. ÜTÜ: Düşük Isıda Buhar ya da Kurutarak Ütüleme. GİYİM TARZI: Günlük / Casual Spor BEDEN BİLGİSİ: Normal Fit Kesim KUMAŞ: Yüzde 70 Pamuk - Yüzde 30 Elastik Polyester BEL KISMI: Lastikli + kordon ip",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":8,
         "name":"Düğmeli Polo Yaka Cepsiz Slim Fit Dar Kesim Düz Tişört",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/dugmeli-polo-yaka-cepsiz-slim-fit-dar-kesim-duz-tisort__1282578207073971.jpg",
-        "desc" : "%55 Pamuk, %45 Polyester, Düz Lacivert-Lacivert, Casual Model, Slim Fit, Polo Yaka, Kısa Kol, Cepsiz, 2021 Yaz, AC Basics Slim Fit Polo Yaka Tişört, Ürün Bedeni: M, Manken Ölçüleri: Boy: 1.89cm, Kilo: 80kg, Ürün Kodu: 4A4820200047LAA, Satın alacağınız bu ürüne, tavsiye edilen yıkama koşullarında çekmezlik garantisi veriyoruz. Çekmezlik önleyici özel iplikler ve örgü tekniği ile üretilmiştir."
+        "desc" : "%55 Pamuk, %45 Polyester, Düz Lacivert-Lacivert, Casual Model, Slim Fit, Polo Yaka, Kısa Kol, Cepsiz, 2021 Yaz, AC Basics Slim Fit Polo Yaka Tişört, Ürün Bedeni: M, Manken Ölçüleri: Boy: 1.89cm, Kilo: 80kg, Ürün Kodu: 4A4820200047LAA, Satın alacağınız bu ürüne, tavsiye edilen yıkama koşullarında çekmezlik garantisi veriyoruz. Çekmezlik önleyici özel iplikler ve örgü tekniği ile üretilmiştir.",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":9,
         "name":"Ds Damat Regular Fit Siyah %100 Pamuk Polo Yaka T-shirt",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/ds-damat-regular-fit-siyah-100-pamuk-polo-yaka-t-shirt__0789795285400452.jpg",
-        "desc" : "Ds Damat Regular Fit Siyah %100 Pamuk Polo Yaka T-shirt"
+        "desc" : "Ds Damat Regular Fit Siyah %100 Pamuk Polo Yaka T-shirt",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":10,
         "name":"Slim Fit Dar Kesim %100 Pamuk Polo Yaka Tişört",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/altinyildiz-classics-erkek-tshirt-basic__1002210258937998.jpg",
-        "desc" : "%100 Pamuk, Düz Siyah, Casual Model, Slim Fit, Polo Yaka, Kısa Kol, Cepsiz, 2021 Yaz, Altınyıldız Classics Polo Yaka Cepsiz Slim Fit Dar Kesim %100 Koton Polo Yaka Tişört, Ürün Bedeni: L, Manken Bilgileri; Boy: 1.89cm, Kilo: 80kg, Ürün Kodu: 4A4821200055SYH."
+        "desc" : "%100 Pamuk, Düz Siyah, Casual Model, Slim Fit, Polo Yaka, Kısa Kol, Cepsiz, 2021 Yaz, Altınyıldız Classics Polo Yaka Cepsiz Slim Fit Dar Kesim %100 Koton Polo Yaka Tişört, Ürün Bedeni: L, Manken Bilgileri; Boy: 1.89cm, Kilo: 80kg, Ürün Kodu: 4A4821200055SYH.",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":11,
         "name":"Pembe Bisiklet Yaka Erkek T-shirt - Slim Fit",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/pembe-bisiklet-yaka-erkek-tshirt-slim-fit__0601535956115076.jpg",
-        "desc" : "Manken Ürün Bedeni:  Boy: 189 cm  Kilo: 80 kg Göğüs : 101 cm  Karışım : %50 PAMUK %50 POLYESTER Kesim : SLIM FITYaka : BİSİKLET YAKA"
+        "desc" : "Manken Ürün Bedeni:  Boy: 189 cm  Kilo: 80 kg Göğüs : 101 cm  Karışım : %50 PAMUK %50 POLYESTER Kesim : SLIM FITYaka : BİSİKLET YAKA",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":12,
         "name":"Buffola Baskılı Erkek Şort Kapri",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/erkek-spor-sort-fitness-kapri-4-renk__0509390883406767.jpg",
-        "desc" : "YIKAMA: 30-40 C° de makinede hassas yıkayınız. ÇAMAŞIR SUYU: Çamaşır Suyu kullanılmaz. KURUTMA: Normal Kurutma yapılabilir. ÜTÜ: Düşük Isıda Buhar ya da Kurutarak Ütüleme. GİYİM TARZI: Günlük / Casual Spor BEDEN BİLGİSİ: Normal Fit Kesim KUMAŞ: Yüzde 70 Pamuk - Yüzde 30 Elastik Polyester BEL KISMI: Lastikli ve kendi kumaşındandır. "
+        "desc" : "YIKAMA: 30-40 C° de makinede hassas yıkayınız. ÇAMAŞIR SUYU: Çamaşır Suyu kullanılmaz. KURUTMA: Normal Kurutma yapılabilir. ÜTÜ: Düşük Isıda Buhar ya da Kurutarak Ütüleme. GİYİM TARZI: Günlük / Casual Spor BEDEN BİLGİSİ: Normal Fit Kesim KUMAŞ: Yüzde 70 Pamuk - Yüzde 30 Elastik Polyester BEL KISMI: Lastikli ve kendi kumaşındandır. ",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":13,
         "name":"Mavi - Mavi Logo Baskılı Siyah Tişört",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/mavi-mavi-logo-baskili-siyah-tisort-065781-900__1286972897892420.",
-        "desc" : "%100 Pamuk Model Ölçüleri: Boy 1.89 cm Kalça: 100 cm Model Üzerindeki Ürün Bedeni Jeanler İçin Bel: 30 Boy: 32 Diğer Ürünlerde:L"
+        "desc" : "%100 Pamuk Model Ölçüleri: Boy 1.89 cm Kalça: 100 cm Model Üzerindeki Ürün Bedeni Jeanler İçin Bel: 30 Boy: 32 Diğer Ürünlerde:L",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":14,
         "name":"Slim Fit Günlük Rahat Spor Örme Şort",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/acco-altinyildiz-classics-erkek-sort__0295985423816296.jpg",
-        "desc" : "%85 Pamuk %15 Polyester, Lacivert, Casual Model, Slim Fit, Cepli, Normal Bel, 2021 Yaz, AC&Co / Altınyıldız Classics Slim Fit Günlük Rahat Spor Örme Şort, Ürün Bedeni: L, Manken Bilgileri: 1.89Cm, Kilo: 80Kg, Ürün Kodu : 4A9521200004LAC. Yıkama Talimatı: Makine yıkama suyu sıcaklığı 30 dereceyi geçmemelidir. Hassas Kuru Temizleme Yapılabilir. Ağartıcı Kullanılmaz. Sererek Kurutunuz. Düşük Isıda Ütülenmelidir. Duyarlı Moda; Geri dönüştürülerek elde edilen rejenere ipliklerden üretilen bu özel ürünümüzle tasarım kadar doğayı da önemsiyoruz. Gezegenimizi daha temiz ve yaşanılası bir yere dönüştürmek için Altınyıldız Classics’in online alışverişe özel olan bu serisini keşfedin."
+        "desc" : "%85 Pamuk %15 Polyester, Lacivert, Casual Model, Slim Fit, Cepli, Normal Bel, 2021 Yaz, AC&Co / Altınyıldız Classics Slim Fit Günlük Rahat Spor Örme Şort, Ürün Bedeni: L, Manken Bilgileri: 1.89Cm, Kilo: 80Kg, Ürün Kodu : 4A9521200004LAC. Yıkama Talimatı: Makine yıkama suyu sıcaklığı 30 dereceyi geçmemelidir. Hassas Kuru Temizleme Yapılabilir. Ağartıcı Kullanılmaz. Sererek Kurutunuz. Düşük Isıda Ütülenmelidir. Duyarlı Moda; Geri dönüştürülerek elde edilen rejenere ipliklerden üretilen bu özel ürünümüzle tasarım kadar doğayı da önemsiyoruz. Gezegenimizi daha temiz ve yaşanılası bir yere dönüştürmek için Altınyıldız Classics’in online alışverişe özel olan bu serisini keşfedin.",
+        "category" : "erkekgiyim&aksesuar"
     },
     {
         "id":15,
         "name":"Steps Kargo Cepli İndigo Erkek Şort",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/steps-kargo-cepli-indigo-erkek-sort__1000191290448673.jpg",
-        "desc" : "Kumaş Bilgisi : %100 Polyester Polyester kumaş, parlak, sağlam, kaygan ve hafif bir kumaştır Kolayca kurur. Pek ütü gerektirmez, kırışmaz. Ütüyle verilen şekli uzun süre muhafaza eder Bakımı çok kolaydır, evde makinede yıkanabilir. Kuru temizleme gerektirmez Ayrıca kullanımdan dolayı iz yapmaz."
+        "desc" : "Kumaş Bilgisi : %100 Polyester Polyester kumaş, parlak, sağlam, kaygan ve hafif bir kumaştır Kolayca kurur. Pek ütü gerektirmez, kırışmaz. Ütüyle verilen şekli uzun süre muhafaza eder Bakımı çok kolaydır, evde makinede yıkanabilir. Kuru temizleme gerektirmez Ayrıca kullanımdan dolayı iz yapmaz.",
+        "category" : "erkekgiyim&aksesuar"
+    },
+    {
+        "id":16,
+        "name":"Günlük Kadın Topuklu Sandalet",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/kadin-sandalet/gunluk-kadin-topuklu-sandalet__0781854695229907.jpg",
+        "desc" : "ÜRÜN TAM KALIPTIR. DERİSİ VE TABANI YUMUŞAKTIR. AYAĞINIZI YORMAZ TOPUK BOYU 6 CM DİR .",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":17,
+        "name":"RoyJones Terlik Modelleri Kadın Anatomik Sandalet",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/terlik-ve-sandalet/royjones-terlik-modelleri-kadin-anatomik-sandalet-1817__0946739483586238.jpg",
+        "desc" : "Outdoor kullanım için uygundur. Çok yönlü kavrama özelliğine sahip aşınmaya karşı dayanıklı dış taban kullanılmıştır Görseldeki ürünün aynısı ve bütün ürünlerimiz adınıza faturalı olarak gönderilmektedir Ürünlerimiz Türkiye de üretilmiştir. Yerli Sermaye, Yerli üretimdir Ürün Kalıpları Tam Kalıptır, Giydiğiniz numarayı alınız Örneğin; Ayağınız 37 numara ise 37 numara alınız.",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":18,
+        "name":"Hakiki Deri Dolgu Topuk Kadın Terlik",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/terlik-ve-sandalet/hakiki-deri-dolgu-topuk-kadin-terlik__0729656765781724.jpg",
+        "desc" : "TOPUK BOYU 8 CM DİR AYAĞINIZ TARAKLI VE BUÇUKLU NUMARA İSE BİR NUMARA BÜYÜK TERCİH EDİNİZ. TOPUĞU HAFİFTİR.AYAĞINIZI YORMAZ. GÜZEL GÜNLERDE SAĞLIKLA KULLANINIZ.",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":19,
+        "name":"Kadın Krem Deri Çift Şeritli Sandalet Terlik",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/terlik-ve-sandalet/kadin-krem-deri-cift-seritli-sandalet-terlik-ba19087__1252410678009890.jpg",
+        "desc" : " Topuk Boyu: 5 cm  Kadın Süet Çift Şeritli Bilek Bağlamalı Sandalet Terlik  Kullanım: Şık duruşu ve ayağı yormayan rahat yapısıyla stilinizi ortaya koyacak bir ürün. Günlük kullanımda rahatlıkla tercih edilebilir.  Kalıp Bilgisi: Standart Kalıp  Kadın Süet Bilek Bağlamalı Sandalet Terlik  Dış Materyal: Süet  Kadın Deri Terlik & Sandalet  Türkiye'de Üretilmiştir.  % 100 Türk Malı",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":20,
+        "name":"Bayan Sneaker Günlük Ayakkabı",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/gunluk-ayakkabi/bayan-sneaker-gunluk-ayakkabi-9-renk__1165364595749755.jpg",
+        "desc" : " Saat 16.00'a kadar alınan tüm siparişler aynı gün kargoya verilir.  Kalıpları Tam'dır.  Koşulsuz değişim ve iade yapılmaktadır.",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":21,
+        "name":"Allyup Unisex Deniz Havuz Ayakkabısı Kaymaz Taban",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/kadin-deniz-ayakkabi/allyup-unisex-deniz-ayakkabisi-kaymaz-taban-sik-havuz-sandaleti__0495351987371607.jpg",
+        "desc" : "Ürünümüz tam kalıptır. Kullandığınız Ayakkabı numaranızı sipariş verebilirsiniz. 37 Numaralı Ürünümüzün ayak uzunluğu 24 cm'dir. Her numara da 0,5 cm uzunluğu değişmektedir. Sandalet ve Ayakkabı olarak kullanılabilir. Kullanılan şeffaf malzeme, Kaliteli şekilde kalıp almıştır.  Uygun şartlarda yırtılma ve delinme olmaz. Kumsal, deniz, havuz ve plaj  gibi alanlarda ayakları dış etkenlerden korumaya yarar. Şık ve konforlu ürünlerdir; Simli ve Simsiz olarak mağazamızda mevcuttur. Kaymaz taban yapısı sayesinde kayıp düşme riskini ortadan kaldırmaya yardımcı olur. Ürünümüzün hafif tasarımı, esnek malzemeleri, dayanıklı dış tabanları, koruma ve rahatlığın ideal dengesini sunar. Yüzmenin yanı sıra, tekne, kürek ve daha birçok su sporu ve aktivitesi için deniz ayakkabısı olarak kullanılabilir.",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":22,
+        "name":"Manijero Alandra Kadın Hakiki Deri Fıstık Yeşili Terlik",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/kadin-terlik/manijero-alandra-kadin-hakiki-deri-fistik-yesili-terlik__0875592680838853.jpg",
+        "desc" : "Cinsiyet: Kadın / Kız Renk: Fıstık Yeşil İç Meteryal: Hakiki Deri Dış Meteryal: Hakiki Deri Taban Bilgisi: Eva Taban Kalınlığı: 3,5 cm Bağlama Şekli: Yaş Grubu: Genç Boyut: Standart",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":23,
+        "name":"Katlanabilir Su Geçirmez Büyük Omuz Çantası",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/omuz-cantasi/katlanabilir-su-gecirmez-buyuk-omuz-cantasi__1211306312272397.jpeg",
+        "desc" : "Son derece kaliteli polyester kumaştan üretilen bu çanta, yırtılmalara ve yıpranmaya karşı dayanıklıdır. Ayrıca ürünün kumaşı hafif yağmurlarda su geçirmemektedir. Tutma kısmı elinizi acıtmayacak bir kumaştan üretilmiştir. Aynı zamanda bavullarınızın üst kısmına koyabilmeniz içinde uygundur.",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":24,
+        "name":"BIRKENSTOCK GIZEH EVA KADIN TERLİK",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/kadin-terlik/birkenstock-gizeh-eva-kadin-terlik-1022453__1106664663677950.jpg",
+        "desc" : "BIRKENSTOCK GIZEH EVA KADIN TERLİK 1022453",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":25,
+        "name":"Muggo Sidney Kadın Prenses Taşlı Şeffaf Topuklu Abiye Ayakkabı",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/klasik-topuk/muggo-sidney-kadin-prenses-tasli-seffaf-topuklu-abiye-ayakkabi__0985398145618040.jpg",
+        "desc" : "Marka: Mugg Dış Materyal: Şeffaf ökçesi ve şeffaf malzemeden üretilen tasarımı ile kadınların vazgeçilmez ayakkabı modellerinden olan, iddialı modeli ile yeni sezonda da şık adımlarınızın ortağı olmaya hazır! Günlük kıyafetleriniz ile sokak modasında, ofis stilinizde ya da özel günlerinizde sizi zarif bir görünüme kavuşturacak bu terlik stoklardaki yerini aldı.  İç Materyal: Neolit  Topuk Boyu: 8 cm  Görseldeki kadın mankenin ayak bedeni 37 numaradır.  Ürün üretim ve imalat hatalarına karşı bir ay garantilidir.  Muggo  markasına ait tüm ürünler 1.Sınıf kalite malzeme ve el işçiliği ile Türkiye' de üretilmektedir.",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":26,
+        "name":"Mopia Siyah Kadın Çapraz Askılı Telefon Bölmeli Cüzdan Çanta",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/omuz-cantasi/mopia-siyah-kadin-capraz-askili-telefon-bolmeli-cuzdan-canta__1490978667817318.JPG",
+        "desc" : "  Ebatlar: En: 13cm Boy: 20cm Genişlik: 5cm Askı: 145cm ·        Materyal: Suni deri, soft malzemeden üretilmiştir ·        Iç detay: Metal fermuarlı körüklü çift gözlü, telefon bölmeli mıknatıs detaylıdır ·        Kullanım şekli: Omuzda ve çapraz kullanıma uygundur ·        Günlük kullanım için uygun rahatça kombinlenebilir.",
+        "category" : "ayakkabi&canta"
+    },
+    {
+        "id":27,
+        "name":"Kol Çantası Telefon Çanta Omuz Çantası",
+        "price":"1.200",
+        "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/omuz-cantasi/kol-cantasi-telefon-canta-omuz-cantasi__0616614228083401.jpeg",
+        "desc" : "Moda Nötr Naylon Öğrenciler Doğa Sporları Kol Çantası Telefon Çanta Omuz Çantası torba işçilik mükemmel. zarif tasarım gösterilebilir? güzel mizaç. Daha sizin için tasarım beşeri kullanıma. Bu giyen gündelik günlük, Wedding, parti, topu için çok uygundur, seyahat, ofis fırsat. Dostun aileniz ya da kendiniz için büyük bir hediye. Ve nbsp; Açıklama: & Nbsp; Cinsiyet: & nbsp; Nötr Malzeme: & nbsp; Naylon Stil türü: Çanta, çanta omuz Kapalı yol: Fermuar Stil: & nbsp; Moda Desen tasarımı: & nbsp; Karikatür Uygulanabilir sahneler: dinlenme, Spor, seyahat, Alışveriş",
+        "category" : "ayakkabi&canta"
     }
- 
+    
+    
+    
+    
+    
 ]
