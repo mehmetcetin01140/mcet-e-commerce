@@ -7,6 +7,7 @@ import {addDoc,updateDoc,doc,collection,serverTimestamp,query,where,onSnapshot} 
 import {db} from "../../firebase"
 import React, { useState ,useContext,useEffect} from 'react'
 import {AuthContext} from "../../contexts/AuthContext"
+import Head from 'next/head'
 export default function Product({product}) {
     const [cartItems,setCartItems] = useState([])
     const {currentUser} = useContext(AuthContext)
@@ -53,6 +54,10 @@ export default function Product({product}) {
       const discountedPrice = discountCalculator()
   return (
     <>
+      <Head>
+        <title>{product.name}</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
             <Container className="product-content">
                 <Row>
                     <Col md={6} className="product-content-left-side">

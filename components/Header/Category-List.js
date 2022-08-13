@@ -58,6 +58,11 @@ export const List = [
     { name: "Navigasyon", image: "/category/navigation.png" },
   ], },
 ];
+const regexForRouteLink = (param) =>{
+       
+    return param.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replaceAll("ı","i").replaceAll(" ","").split(",");
+  
+}
 
 export default function CategoryList() {
   
@@ -72,10 +77,11 @@ export default function CategoryList() {
             <div className="dropdown">
               <div className="dropdown-content">
             {
-              listItem.test.map((element,i)=>(
+              listItem.test.map((element)=>(
                 <div className="dropdown-items">
-            <Link href={`kategori/${element.name}`}>
-            <a>
+            <Link href={`/kategori/${regexForRouteLink(element.name.toLowerCase())}`}>
+            <a style={{textDecoration: 'none',
+          color: 'inherit',}}>
                   
                 <img src={element.image}/>
               <span> {element.name}</span>

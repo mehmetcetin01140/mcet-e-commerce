@@ -5,9 +5,7 @@ import CardComponent from "../../components/HomePage/Card"
 import { listManipulationForStaticPaths } from '../../helpers/ManipulatedListForStaticPaths';
 export default function Category({product}) {
    
-    useEffect(()=>{
-        listManipulationForStaticPaths()
-    },[])
+    
     const cardLoop = () =>{
         return(
                 
@@ -19,7 +17,7 @@ export default function Category({product}) {
     }
     const card = cardLoop()
 
-  console.log(listManipulationForStaticPaths());
+ 
  
   return (
     <Container className='category'>
