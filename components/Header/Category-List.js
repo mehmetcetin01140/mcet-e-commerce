@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import Image from "next/image";
 import { Container } from "react-bootstrap";
 import Link from "next/link"
-import { listManipulationForStaticPaths } from "../../helpers/ManipulatedListForStaticPaths";
 export const List = [
   {
     name: "Moda",
@@ -72,7 +70,7 @@ export default function CategoryList() {
       <ul className="category-list">
         {List.map((listItem) => (
           <li>
-            <Image src={listItem.url} width={"30px"} height={"30px"} />
+            <img src={listItem.url} width={"30px"} height={"30px"} className="category-image"/>
             <span> {listItem.name}</span>
             <div className="dropdown">
               <div className="dropdown-content">
@@ -99,5 +97,5 @@ export default function CategoryList() {
       </ul>
     );
   };
-  return <Container>{listLoop()}</Container>;
+  return <Container className="list-container">{listLoop()}</Container>;
 }

@@ -6,6 +6,7 @@ import Campaign from '../components/HomePage/Campaign'
 import RecommendProduct from '../components/HomePage/Recommend-Product'
 
 import Footer from "../components/Footer/Footer"
+import ResponsiveCategories from '../components/HomePage/Responsive-Categories'
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       <>
 
       <Container>
+        <ResponsiveCategories/>
       <Carousel/>
       <Campaign/>
       <RecommendProduct/>
