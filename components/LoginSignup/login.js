@@ -10,7 +10,7 @@ export default function Login() {
     signInWithPopup(auth,provider)
   }
   return (
-    <div>
+    <div className='login-container'>
         {
             !currentUser ?    <span onClick={loginGoogle}>Giriş Yap</span> :  <span onClick={()=>auth.signOut()}>Çıkış Yap</span>
         }

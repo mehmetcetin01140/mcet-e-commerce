@@ -47,7 +47,7 @@ cursor: pointer;
     }
     .cart{
       width: 5%;
-      border-right: 1px solid;
+     
       position: relative;
     
    
@@ -72,6 +72,7 @@ cursor: pointer;
     }
     .account{
       width: 15%;
+      border-left: 1px solid white;
       span{
         padding: 8px;
       }
@@ -79,7 +80,9 @@ cursor: pointer;
     }
   
   }
- 
+ .off-canvas-container{
+  display: none;
+ }
   .header-bottom{
     height: 46px;
     background-color: #f5f5f5;;
@@ -141,10 +144,30 @@ cursor: pointer;
   }
   .account{
     display: none;
+  
   }
   .cart{
-    display: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
   }
+  .off-canvas-container{
+    display: block !important;
+  }
+  .header-top{
+    padding: 10px;
+    input{
+      width: 100% !important;
+  margin: 0 10px;
+    }
+  }
+.header-top-banner{
+  display: none;
+}
+
   .category-list{
  
     span{
@@ -590,12 +613,14 @@ cursor: pointer;
 .responsive-categories{
   display: none;
   flex-direction: column ;
-  justify-content: center;
   align-items: center ;
-
+  justify-content: center;
+  a{
+text-align: center;
+  }
   img{
-    width: 101px;
-    height: 101px;
+    width: 70px;
+    height: 70px;
     
   }
   h5{
@@ -603,10 +628,45 @@ cursor: pointer;
   }
 }
 
+
 @keyframes tilt-n-move-shaking {
   0% { transform: translate(0, 0) rotate(0deg); }
   25% { transform: translate(2px, 2px) rotate(1deg); }
   50% { transform: translate(0, 0) rotate(0eg); }
   75% { transform: translate(-2px, 2px) rotate(-1deg); }
   100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+.off-canvas-body{
+  padding: 10px;
+  h5{
+    margin-left: 10px;
+  }
+  .off-canvas-login{ 
+  .login-container{
+    background-color: #10bc49;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 10px;
+   
+  }
+}
+.off-canvas-categories{
+  margin-top: 15px;
+  .responsive-categories{
+    display: flex;
+    h5{
+      margin: 0px;
+    }
+  }
+}
+.off-canvas-cart{
+  margin-top: 15px;
+  a{
+    display: flex;
+  }
+  
+}
 }

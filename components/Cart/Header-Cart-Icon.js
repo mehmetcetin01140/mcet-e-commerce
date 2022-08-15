@@ -13,7 +13,7 @@ export default function HeaderCartIcon() {
           textDecoration: 'none',
           color: 'inherit',
         }}> 
-    <FontAwesomeIcon icon={faCartShopping} />
+    <FontAwesomeIcon icon={faCartShopping} fontSize={20} style={{margin:"auto"}}/>
       <div className='cart-quantity'>
       <span>{cartItems.length}</span>
       </div>
