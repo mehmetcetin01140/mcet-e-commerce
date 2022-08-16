@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import ProductData from "../../json/recommendation.json"
+import Link from 'next/link'
 export default function SearchInput() {
     const [searchParam,setSearchParam] = useState("")
     const [filteredProducts,setFilteredProducts] = useState([])
@@ -24,10 +25,16 @@ export default function SearchInput() {
                     <div className="search-input-dropdown">
 
          {   filteredProducts.map(product=>(
-                <div className="dropdown-content">
+                  <Link href={`/product/${product.id}`} >
+                <div className="dropdown-content" onClick={()=>setSearchParam("")}>
+                  <a style={{textDecoration: 'none',
+          color: 'inherit',}}>
                     <img src={product.img} alt={product.name}/>
                     <span>{product.name}</span>
+
+                  </a>
                 </div>
+                  </Link>
             ))}
                     </div>
      

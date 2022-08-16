@@ -8,6 +8,7 @@ import {db} from "../../firebase"
 import React, { useState ,useContext,useEffect} from 'react'
 import {AuthContext} from "../../contexts/AuthContext"
 import Head from 'next/head'
+import { products } from "../../components/HomePage/Recommend-Product";
 export default function Product({product}) {
     const [cartItems,setCartItems] = useState([])
     const {currentUser} = useContext(AuthContext)
@@ -107,7 +108,12 @@ export default function Product({product}) {
             <div className="product-return">
                 <img src="/kolayiade.png"/>
                 </div>
-                <RecommendProduct/>
+                <h4>
+        İlgini Çekebilir
+        </h4>
+             <Row>
+             {products}
+             </Row>
             </Container>
     </>
   )

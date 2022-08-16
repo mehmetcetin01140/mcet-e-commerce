@@ -12,7 +12,7 @@ function CardComponent({data}) {
       };
       
   return (
-    <Col md={3} xs={6} className="d-flex justify-content-center mt-5 mb-5">
+    <Col  md={3} xs={6} className="product-card-container">
     <div className="product-card">
         <Link href={`/product/${data.id}`}>
         <a style={{

@@ -10,7 +10,6 @@ export default function Category({ product, topCategory }) {
   const cardLoop = () => {
     return [
       product.map((data) => <CardComponent data={data} />),
-
       topCategory.map((data) => <CardComponent data={data} />),
     ];
   };

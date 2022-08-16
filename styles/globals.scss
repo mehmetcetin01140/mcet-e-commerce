@@ -184,9 +184,7 @@ cursor: pointer;
   .dropdown-content{
     width: 100% !important;
     flex-direction: column;
-    a{
-      width: 20px !important;
-    }
+ 
    }
    .dropdown-items img{
     width: 20px;
@@ -292,7 +290,7 @@ cursor: pointer;
       margin-left: 10px;
       width: 100%;
       font-weight:medium;
-      font-size: 14px;
+      font-size: 15px;
     }
   }
 
@@ -496,17 +494,27 @@ cursor: pointer;
       right: 0;
       top:80px;
       background-color: whitesmoke;
+    
+      border-radius: 15px !important;
       color: black;
     z-index: 3;
     border-radius: 3px;
-        .dropdown-content{
+    max-height: 450px;
+    overflow-y:scroll;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .dropdown-content{
+          border-bottom: 1px solid rgba(80, 77, 77, 0.253);
           padding: 15px;
-          display: flex;
-          align-items: center;
           transition: .1s all;
           &:hover{
-            background-color: rgba(128, 128, 128, 0.378);
+            background-color:#ea222f;
+            color: white;
             cursor: pointer;
+          }
+          a{
+            display: flex;
+            align-items: center;
+          
           }
           img{
             width: 60px;
@@ -653,7 +661,14 @@ text-align: center;
     font-size: 13px;
   }
 }
-
+.product-card-container{
+  display: flex;
+  justify-content: center;
+  @media screen and (max-width:766px) {
+    margin-bottom: 25px;
+  }
+ 
+}
 
 @keyframes tilt-n-move-shaking {
   0% { transform: translate(0, 0) rotate(0deg); }
