@@ -35,7 +35,7 @@ export const List = [
     { name: "Saç Bakım", image: "/category/care.png" },
     { name: "Yüz & Vücut Bakım", image: "/category/woman.png" },
   ], },
-  { name: "Saat", url: "/saat.png",test: [
+  { name: "Altın&Saat", url: "/saat.png",test: [
     { name: "Altın & Gümüş", image: "/category/golden.png" },
     { name: "Saat", image: "/category/watch.png" },
     { name: "Güneş Gözlüğü", image: "/category/glass.png" },
@@ -45,14 +45,14 @@ export const List = [
     { name: "Spor Giyim & Ayakkabı", image: "/category/sportshoes.png" },
     { name: "Bisiklet", image: "/category/bike.png" },
   ],  },
-  { name: "Kitap", url: "/kitap.png",test: [
+  { name: "Kültür", url: "/kitap.png",test: [
     { name: "Kitap", image: "/category/books.png" },
     { name: "Film", image: "/category/movie.png" },
     { name: "Müzik", image: "/category/music.png" },
   ], },
-  { name: "Lastik", url: "/lastik.png",test: [
+  { name: "Otomotiv", url: "/lastik.png",test: [
     { name: "Aksesuar", image: "/category/speed.png" },
-    { name: "Motor Yağı", image: "/category/oil.png" },
+    { name: "Yağ&Akü", image: "/category/oil.png" },
     { name: "Navigasyon", image: "/category/navigation.png" },
   ], },
 ];

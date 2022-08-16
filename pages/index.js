@@ -20,6 +20,7 @@ export default function Home() {
       <Carousel/>
       <Campaign/>
       <RecommendProduct/>
+   
       </Container>
       <Footer/>
    

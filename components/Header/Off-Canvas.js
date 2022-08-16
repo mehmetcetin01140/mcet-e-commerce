@@ -2,11 +2,10 @@ import React, { useState,useContext } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars,faUser,faList,faCartShopping} from '@fortawesome/free-solid-svg-icons'
+import { faBars,faUser,faList,faCartShopping,faHome} from '@fortawesome/free-solid-svg-icons'
 import Login from '../LoginSignup/login';
 import {AuthContext} from "../../contexts/AuthContext"
 import {CartContext} from "../../contexts/CartContext"
-import responsiveCategories from "../HomePage/Responsive-Categories"
 import ResponsiveCategories from '../HomePage/Responsive-Categories';
 import Link from 'next/link';
 export default function OffCanvas({ name, ...props }) {
@@ -26,6 +25,19 @@ export default function OffCanvas({ name, ...props }) {
         </Offcanvas.Header>
         <Offcanvas.Body>
       <div className='off-canvas-body'>
+    <div className='off-canvas-home'>
+
+<Link href={"/"}>
+            <a style={{
+          textDecoration: 'none',
+          color: 'inherit',
+        }}>
+
+    <FontAwesomeIcon icon={faHome} fontSize={20} />
+<h5>Anasayfa</h5>
+       </a>
+        </Link>
+    </div>
     <div className='off-canvas-login'>
    <div className='d-flex'>
    <FontAwesomeIcon icon={faUser} fontSize={20} />
@@ -38,7 +50,6 @@ export default function OffCanvas({ name, ...props }) {
      </span>
     <Login/>
     </div>
- 
         <div className='off-canvas-categories'>
         <div className='d-flex'>
     <FontAwesomeIcon icon={faList} fontSize={20} />
