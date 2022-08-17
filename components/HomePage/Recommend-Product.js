@@ -23,12 +23,12 @@ export default function RecommendProduct() {
         {
             recommended.map((product,i)=>(
                 <>
-        <h4 className='mt-2'>
+        <Row>
+        <h4 className='mt-5 mb-5'>
            {
             descriptions[i]
            }
         </h4>
-        <Row>
         {product}
         </Row>
                 </>

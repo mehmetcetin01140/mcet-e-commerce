@@ -36,11 +36,11 @@ export default function Cart() {
   return (
     <div className='cart-container'>
       <Row>
-        <Col md={9}>
+        <Col lg={9} md={12}>
      
         <Card cartData={cartItems}/>
         </Col>
-        <Col md={3} className='cart-complete'>
+        <Col lg={3} md={12} className='cart-complete'>
           <h5>Sipariş Özeti</h5>
           <span>Sipariş Tutarı {`(${cartItems.length} ürün)`}: {(totalPrice()-(totalPrice()*0.18)).toFixed(3)} TL</span>
           <br/>

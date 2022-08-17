@@ -1,6 +1,11 @@
 import React,{useEffect, useState} from 'react'
 import ProductData from "../../json/recommendation.json"
 import Link from 'next/link'
+import HeaderCartIcon from '../Cart/Header-Cart-Icon'
+import Login from "../LoginSignup/login"
+import Offcanvas from "./Off-Canvas"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser} from '@fortawesome/free-solid-svg-icons'
 export default function SearchInput() {
     const [searchParam,setSearchParam] = useState("")
     const [filteredProducts,setFilteredProducts] = useState([])
@@ -19,9 +24,9 @@ export default function SearchInput() {
 
   return (
 <>
+<div className="search-input">
+
 <input type="text" placeholder='Ürün Ara...' value={searchParam} onChange={(e)=>setSearchParam(e.target.value)} />
-     
-         
                     <div className="search-input-dropdown">
 
          {   filteredProducts.map(product=>(
@@ -37,6 +42,18 @@ export default function SearchInput() {
                   </Link>
             ))}
                     </div>
+                    <HeaderCartIcon />
+                    <div className="account">
+                      <FontAwesomeIcon icon={faUser} fontSize={20}/>
+          <Login/>
+          </div>
+                    <div className='menu'>
+                    <Offcanvas/>
+                    <span>Menü</span>
+                    </div>
+                    
+</div>
+
      
         
     </>
