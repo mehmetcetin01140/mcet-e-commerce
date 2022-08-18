@@ -49,7 +49,6 @@ export default function SearchInput() {
           </div>
                     <div className='menu'>
                     <Offcanvas/>
-                    <span>Menü</span>
                     </div>
                     
 </div>

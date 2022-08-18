@@ -9,6 +9,7 @@ import React, { useState ,useContext,useEffect} from 'react'
 import {AuthContext} from "../../contexts/AuthContext"
 import Head from 'next/head'
 import { products } from "../../components/HomePage/Recommend-Product";
+import { useRouter } from 'next/router'
 export default function Product({product}) {
     const [cartItems,setCartItems] = useState([])
     const {currentUser} = useContext(AuthContext)
@@ -17,6 +18,7 @@ export default function Product({product}) {
         value: 2.5,
         edit: false
       };
+      const router = useRouter()
       useEffect(() => {
         const ref = collection(db,'cart')
         if(currentUser){
@@ -34,14 +36,19 @@ export default function Product({product}) {
       const addToCart = (id) =>{
         const ref = collection(db,'cart');
         const findProduct = cartItems.find(elem=>elem.product.id === id)
-        if(findProduct){
-            const refe = doc(db,"cart",findProduct.id)
-            const newQuantity = {product:{...product,quantity:findProduct.product.quantity+=1}}
-            updateDoc(refe,newQuantity)
-       }
-       else{
-      addDoc(ref,{product:{...product,quantity:1},user:currentUser.email})
-       }
+   if(currentUser){
+    if(findProduct){
+      const refe = doc(db,"cart",findProduct.id)
+      const newQuantity = {product:{...product,quantity:findProduct.product.quantity+=1,price:discountedPrice}}
+      updateDoc(refe,newQuantity)
+ }
+ else{
+addDoc(ref,{product:{...product,quantity:1,price:discountedPrice},user:currentUser.email})
+ }
+   }
+   else{
+    router.push("/sepetim")
+   }
             
             
           
@@ -50,6 +57,7 @@ export default function Product({product}) {
         const replacedPrice = (Number(product.price.replace(".","")))
         const calculator = replacedPrice*0.10.toFixed(2)
            const result = replacedPrice - calculator
+     
         return result
       }
       const discountedPrice = discountCalculator()

@@ -2,19 +2,19 @@
     {
         "id":0,
         "name":"APPLE MGNT3TU/A Mac Mini APPLE M1 8C GPU 8 GB 512 GB SSD",
-        "price":"18.199",
+        "price":"1.200",
         "img" : "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/115699_large.jpg"
     },
     {
         "id":1,
         "name":"Nike Downshifter Kadın Spor Ayakkabı",
-        "price":"1.034",
+        "price":"1.200",
         "img" : "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTl9d1tQm9nDk2ZXdIYynReHvPU5tAmGZJW44KVB95SXa2uJOFAVKYrdwtgPrEG4Ev5d4AmxS4S4QJcALn_kyVALYrHaY6E75AZ0eggWrFPww_X_HlW706Q&usqp=CAE"
     },
     {
         "id":2,
         "name":"Huawei Watch GT2 46mm Ekran Koruyucu",
-        "price":"3.134",
+        "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/elektronik/akilli-saat-aksesuarlari/huawei-watch-gt2-46-mm-ekran-koruyucu-nano-esnek-cam__0693517701781760.jpg",
         "desc" : "Huawei Watch GT2 AKILLI SAAT KIRILMAZ CAM EKRAN KORUYUCU yüksek kalite materyalden üretilmiştir. Huawei Watch GT2 ve 46mm ekranlara uyumludur. Ekranını kir ve darbeden korur, çizilmesini önler, Kolayca takıp çıkartılabilir, Hiçbir iz bırakmaz. Harika kalıp kesimi sayesinde ekrana mükemmel uyar , Uzun ömürlüdür, Bütün darbelere karşı maximum korur. "
     },
@@ -27,7 +27,7 @@
     {
         "id":4,
         "name":"DeepSEA Gri Erkek Dar Kesim Kargo Kapri",
-        "price":"574",
+        "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/erkek-sort/deepsea-gri-erkek-dar-kesim-kargo-kapri-2002014__0549444973981877.jpg",
         "desc" : "DeepSEA Kargo Kapri Üzerinde desenleri bulunan Slim fit Kargo kapri oldukça kullanışlı bir modeldir. Slim Fit Kargo Kapri Birden fazla renk seçeneğine sahiptir. Çok Cepli Slim Fit Kargo Kapri'nin İçeriği %98 Pamuk, %2 Likra Boyu diz hizasında bulunan Çok Cepli kapri'nin kapanma türü fermuarlı ve düğmelidir. Çok Cepli kargo Kapri tek parça halinde gönderilecektir. Çok Cepli kargo kapriyi Yaz Aylarında salaş Bir Tişört ve spor ayakkabı ile kombinleyebilirsiniz Çekimde kullanılan aksesuarlar ürün fiyatına dahil değildir.",
         "category" : "erkekgiyim&aksesuar",
@@ -36,7 +36,7 @@
     {
         "id":5,
         "name":"Düğmeli Polo Yaka Cepsiz Slim Fit Dar Kesim Düz Tişört",
-        "price":"1.034",
+        "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/dugmeli-polo-yaka-cepsiz-slim-fit-dar-kesim-duz-tisort__1460692309948198.jpg",
         "desc" : "Ürünümüz Bisiklet Yaka olup SlimFit'dir Ürünün Kumaşı %95 PAMUK %5 Elastan içermektedir. Manken Ölcüleri :Boy 180 cm Göğüs : 90 cm Bel:68 cm Kilo: 76 Bedeni L",
         "category" : "erkekgiyim&aksesuar",
@@ -45,7 +45,7 @@
     {
         "id":6,
         "name":"Slim Fit Dar Kesim %100 Pamuk Bisiklet Yaka Kısa Kollu Tişört",
-        "price":"3.134",
+        "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/tisort-atlet/acco-altinyildiz-classics-erkek-tshirt-paketli__0559253731803412.jpg",
         "desc" : "%100 Pamuk, Düz Lacivert, Bisiklet Yaka, Slim Fit, Kısa Kol, Cepsiz, 4 Mevsim, AC&CO / Altınyıldız Classics Slim Fit Bisiklet Yaka Kısa Kollu Pamuklu Tişört, Manken Ölçüleri: Boy:1.89Cm, Kilo:80 Kg, Ürün Bedeni:L, Ürün Kodu: 4A4800000001LAC. Yıkama Talimatı: Makine yıkama suyu sıcaklığı 30 dereceyi geçmemelidir. Trikloretilen Hariç Kuru Temizleme Kimyasalları Kullanılır. Çamaşır Suyu Konamaz. Kurutma Makinesinde Kurutulamaz. Düşük Isıda Ütülenmelidir. ",
         "category" : "erkekgiyim&aksesuar",
@@ -256,7 +256,7 @@
         "topCategory":"moda"
     },
     {
-        "id":30,
+        "id":280,
         "name":"Pimody Kadın Siyah Kısakol Fermuarlı Toparlayıcı Mayo",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/giyim-ayakkabi/mayo-kadin/pimody-kadin-siyah-kisakol-fermuarli-toparlayici-mayo__1336157022797791.jpg",
@@ -1545,10 +1545,10 @@
     } ,
     {
         "id":174,
-        "name":"Erkek Günlük Spor Ayakkabı Kadın",
+        "name":"Erkek Günlük Spor Ayakkabı",
         "price":"1.200",
         "img" : "https://n11scdn.akamaized.net/a1/1024/spor-outdoor/gunluk-spor-ayakkabi/erkek-gunluk-spor-ayakkabi-kadin-erkek-6-renk-brt270__1410577149835056.jpg",
-        "desc" : "Erkek Günlük Spor Ayakkabı Kadın",
+        "desc" : "Erkek Günlük Spor Ayakkabı",
         "category" : "sporgiyim&ayakkabi",
         "topCategory":"spor"
     } ,

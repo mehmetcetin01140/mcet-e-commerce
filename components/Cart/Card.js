@@ -29,28 +29,28 @@ export default function Card({cartData}) {
                         <Col lg={10} md={12} >
                         <div className="card-items">
                             
-          <img src={item.product.img}/>
+          <img src={item.product?.img}/>
           
           <div className='card-name-and-quantity'>
-          <h5>{item.product.name}</h5>
+          <h5>{item.product?.name}</h5>
           <div className='d-flex justify-content-center'>
-          <button onClick={()=>increaseOrDecreaseQuantity(item.product.id,1)}>+ </button>
+          <button onClick={()=>increaseOrDecreaseQuantity(item.product?.id,1)}>+ </button>
           <span>
-             {item.product.quantity}
+             {item.product?.quantity}
           </span>
-           <button onClick={()=>increaseOrDecreaseQuantity(item.product.id,-1)}>-</button>
+           <button onClick={()=>increaseOrDecreaseQuantity(item.product?.id,-1)}>-</button>
           </div>
           </div>
        
                         </div>
                         <div className='card-icon'>
-                        <FontAwesomeIcon icon={faTrash} onClick={()=>deleteDoc(doc(db,"cart",item.id))} fontSize={20} className={"card-icon-item"}/>
+                        <FontAwesomeIcon icon={faTrash} onClick={()=>deleteDoc(doc(db,"cart",item?.id))} fontSize={20} className={"card-icon-item"}/>
                         </div>
                         </Col>
                        
         </Col>
                     <Col lg={2} md={12} className="card-price-and-quantity">
-                    <h5>Fiyat : {item.product.price} TL</h5> 
+                    <h5>Fiyat : {item.product?.price} TL</h5> 
                     Ücretsiz Kargo
                     <img src={"/yurtici.svg"}/>
                     </Col>

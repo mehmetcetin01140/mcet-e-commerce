@@ -12,7 +12,7 @@ export default function Login() {
   return (
     <div className='login-container'>
         {
-            !currentUser ?    <span onClick={loginGoogle}>Giriş Yap</span> :  <span onClick={()=>auth.signOut()}>Çıkış Yap</span>
+            !currentUser ? <button onClick={loginGoogle}>Giriş Yap</button> :  <button onClick={()=>auth.signOut()}>Çıkış Yap</button>
         }
 
     </div>
