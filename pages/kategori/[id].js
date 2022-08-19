@@ -1,11 +1,41 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import recommendationData from "../../json/recommendation.json";
 import CardComponent from "../../components/HomePage/Card";
 import { listManipulationForStaticPaths } from "../../helpers/ManipulatedListForStaticPaths";
-import { List } from "../../components/Header/Category-List";
+import {
+  addDoc,
+  updateDoc,
+  doc,
+  collection,
+  serverTimestamp,
+  query,
+  where,
+  onSnapshot,
+} from "firebase/firestore";
+import { db } from "../../firebase";
+import { AuthContext } from "../../contexts/AuthContext";
+import Head from "next/head";
 export default function Category({ product, topCategory }) {
-  console.log(listManipulationForStaticPaths());
+  const { currentUser } = useContext(AuthContext);
+  const [favItems, setFavItems] = useState([]);
+
+  useEffect(() => {
+    const ref = collection(db, "fav");
+    if (currentUser) {
+      const q = query(ref, where("user", "==", currentUser?.email));
+      const unsub = onSnapshot(q, (snap) => {
+        setFavItems(
+          snap.docs.map((doc) => ({
+            ...doc.data(),
+            favInfo: doc.data().favInfo,
+            id: doc.id,
+          }))
+        );
+      });
+      return unsub;
+    }
+  }, [currentUser]);
 
   const cardLoop = () => {
     return [
@@ -17,9 +47,15 @@ export default function Category({ product, topCategory }) {
   const card = cardLoop();
 
   return (
-    <Container className="category">
-      <Row>{card}</Row>
-    </Container>
+    <>
+      <Head>
+        <title>Kategoriler</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Container className="category">
+        <Row>{card}</Row>
+      </Container>
+    </>
   );
 }
 export const getStaticProps = async ({ params }) => {

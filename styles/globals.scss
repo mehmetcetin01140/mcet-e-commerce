@@ -45,7 +45,7 @@ a:active {
       }
     }
     .cart {
-      width: 5%;
+      width: 50px;
 
       position: relative;
       margin: auto;
@@ -80,6 +80,7 @@ a:active {
   }
   .menu {
     margin: auto;
+    cursor: pointer;
     span {
       font-size: 14px;
     }
@@ -89,6 +90,7 @@ a:active {
   }
   .off-canvas-container {
     display: none;
+    width: 50px;
   }
   .header-bottom {
     height: 46px;
@@ -104,6 +106,7 @@ a:active {
         position: relative;
         display: flex;
         align-items: center;
+    
         cursor: pointer;
         &:hover {
           border-bottom: 3px solid red;
@@ -133,12 +136,14 @@ a:active {
           border-bottom: 3px solid red;
           .dropdown {
             display: block;
+       
           }
         }
         span {
           font-size: 13px;
           font-weight: 600;
           color: #424242;
+         
         }
       }
     }
@@ -163,9 +168,13 @@ a:active {
     width: 60px !important;
   }
   padding: 30px;
-height: 380px !important;
+
 }
-  
+  .category-list{
+    .dropdown-content{
+      height: 400px !important;
+    }
+  }
   .cart {
     width: 100%;
     display: flex;
@@ -237,7 +246,7 @@ height: 380px !important;
   display: inline-block;
   .dropdown-content {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 400px;
+    width: 370px;
     height: 220px;
     background-color: white;
     position: absolute !important;
@@ -269,17 +278,35 @@ height: 380px !important;
 
 
   .dropdown-items {
-    margin: auto;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+background-color: white;
+    width: 100%;
+ 
+    .dropdown-items-text{
+      height: 40px;
+      width: 100%;
+      line-height: 0px;
+      text-align: center;
+      padding: 10px;
+     
+    }
+    @media screen and (max-width:1200px) {
+      margin: auto;
+      .dropdown-items-text{
+        padding: 5px;
+      }
+    }
     transition: 0.3s transform;
     a {
       display: flex;
       flex-direction: column;
       align-items: center;
+    
     }
-    &:hover {
-      transform: scale(1.1);
-    }
+    
   
   }
 }
@@ -289,9 +316,21 @@ height: 380px !important;
   .mySwiper {
     width: 100%;
     height: 100%;
+
     img {
       border-radius: 10px;
+     width: 100%;
+     height: 100%;
+      object-fit: cover;
     }
+  }
+  @media screen and (max-width:1200px) {
+    height: 350px;
+    object-fit: contain;
+  }
+  @media screen and (max-width:766px) {
+    height: 220px;
+    object-fit: contain;
   }
 }
 .campaign-container {
@@ -322,12 +361,15 @@ height: 380px !important;
     }
   }
 }
+
 .product-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
 
+span{
   cursor: pointer;
+}
   .product-info {
     height: 75px;
     display: flex;
@@ -361,9 +403,18 @@ height: 380px !important;
     overflow: hidden;
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid rgba(147, 147, 150, 0.236);
     border-radius: 8px;
     position: relative;
+   max-height: 300px;
+@media screen and (max-width:1400px) {
+  height: 244px;
+}
+@media screen and (max-width:766px) {
+  height: 220px;
+}
+    width: 100%;
     .product-like {
       position: absolute;
       top: 2px;
@@ -407,6 +458,7 @@ height: 380px !important;
   margin-top: 10px;
   border: 1px solid rgba(128, 128, 128, 0.229);
   border-radius: 10px;
+  
   .product-content-left-side {
     display: flex;
     flex-direction: column;
@@ -759,16 +811,22 @@ height: 380px !important;
   }
 }
 .cart-redirect-container{
-
+  
   .cart-redirect-left-side{
-  display: flex;
-  height: 100%;
-  align-items: center;
-  img{
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-}
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    img{
+      
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+   
   }
   .cart-redirect-right-side{
     height: 100%;
@@ -776,6 +834,8 @@ height: 380px !important;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+   
     button{
       background-color:#10bc49;
       padding: 10px !important;

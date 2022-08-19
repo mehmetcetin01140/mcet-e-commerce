@@ -7,17 +7,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-
-
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
 import Image from "next/image";
 
 export default function App() {
   return (
-<div className="carousel">
-
-
+    <div className="carousel">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -32,13 +28,19 @@ export default function App() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        
-        <SwiperSlide><Image src={"/carouselfeno.jpg"} quality={100} layout="fill"/></SwiperSlide>
-        <SwiperSlide><Image src={"/carouselproduct.jpg"} quality={100}  layout="fill"/></SwiperSlide>
-        <SwiperSlide><Image src={"/carouseltech.png"} quality={100}  layout="fill"/></SwiperSlide>
-        <SwiperSlide><Image src={"/carouselperwoll.png"} quality={100}  layout="fill"/></SwiperSlide>
-      
+        <SwiperSlide>
+          <img src={"/carouselfeno.jpg"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={"/carouselproduct.jpg"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={"/carouseltech.png"} />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={"/carouselperwoll.png"} />
+        </SwiperSlide>
       </Swiper>
-      </div>
+    </div>
   );
 }

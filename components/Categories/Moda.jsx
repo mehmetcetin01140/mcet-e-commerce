@@ -1,27 +1,15 @@
-import React from 'react'
-import ModaJson from "../../json/moda.json"
-import CardComponent from "../HomePage/Card"
-import {Row} from "react-bootstrap"
+import React from "react";
+import ModaJson from "../../json/moda.json";
+import CardComponent from "../HomePage/Card";
+import { Row } from "react-bootstrap";
 export default function Moda() {
-    const cardLoop = () =>{
-        return(
-                
-                    ModaJson.map(data=>(
-                        <CardComponent data={data}/>
-                    ))
-                
-        )
-    }
-    const cards = cardLoop()
+  const cardLoop = () => {
+    return ModaJson.map((data) => <CardComponent data={data} />);
+  };
+  const cards = cardLoop();
   return (
-    
     <div>
-        <Row>
-
-      {
-       cards
-      }
-        </Row>
+      <Row>{cards}</Row>
     </div>
-  )
+  );
 }
