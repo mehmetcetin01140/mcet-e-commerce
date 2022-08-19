@@ -13,8 +13,8 @@ export default function ResponsiveCategories() {
   };
   return (
     <Row className="mt-3 mb-3">
-      {List.map((listItem) => (
-        <Col sm={4} xs={4}>
+      {List.map((listItem,i) => (
+        <Col sm={4} xs={4} key={i}>
           <div className="responsive-categories">
             <Link
               href={`/kategori/${regexForRouteLink(

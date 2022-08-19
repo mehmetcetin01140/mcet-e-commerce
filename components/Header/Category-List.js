@@ -97,8 +97,8 @@ export default function CategoryList() {
   const listLoop = () => {
     return (
       <ul className="category-list">
-        {List.map((listItem) => (
-          <li>
+        {List.map((listItem,i) => (
+          <li key={i}>
             <img
               src={listItem.url}
               width={"30px"}

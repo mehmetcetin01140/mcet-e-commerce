@@ -11,8 +11,8 @@ export default function Campaign() {
   const campaignLoop = () => {
     return (
       <Row>
-        {campaignObject.map((campaign) => (
-          <Col md={3} xs={6} className="content">
+        {campaignObject.map((campaign,i) => (
+          <Col md={3} xs={6} className="content" key={i}>
             <img src={campaign.src} />
             <span>{campaign.text}</span>
           </Col>
