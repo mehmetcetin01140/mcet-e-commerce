@@ -80,7 +80,7 @@ export const List = [
     test: [
       { name: "Aksesuar", image: "/category/speed.png" },
       { name: "Yağ&Akü", image: "/category/oil.png" },
-      { name: "Navigasyon", image: "/category/navigation.png" },
+      { name: "Navigasyon", image: "/category/navigation.png" }
     ],
   },
 ];
@@ -104,19 +104,20 @@ export default function CategoryList() {
               width={"30px"}
               height={"30px"}
               className="category-image"
+              alt="i"
             />
             <span> {listItem.name}</span>
             <div className="dropdown">
               <div className="dropdown-content">
-                {listItem.test.map((element) => (
-                  <div className="dropdown-items">
+                {listItem.test.map((element,i) => (
+                  <div className="dropdown-items" key={i}>
                     <Link
                       href={`/kategori/${regexForRouteLink(
                         element.name.toLowerCase()
                       )}`}
                     >
                       <a style={{ textDecoration: "none", color: "inherit" }}>
-                        <img src={element.image} />
+                        <img src={element.image} alt={i} />
                         <div className="dropdown-items-text">
                           <span> {element.name}</span>
                         </div>

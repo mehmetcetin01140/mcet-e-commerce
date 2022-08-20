@@ -22,7 +22,7 @@ export default function ResponsiveCategories() {
               )}`}
             >
               <a style={{ textDecoration: "none", color: "inherit" }}>
-                <img src={listItem.url} className="category-image" />
+                <img src={listItem.url} className="category-image" alt={i}/>
                 <h5>{listItem.name}</h5>
               </a>
             </Link>

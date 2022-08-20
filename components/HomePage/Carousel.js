@@ -1,15 +1,13 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import required modules
 import { Autoplay, Pagination, Navigation } from "swiper";
-import Image from "next/image";
+
 
 export default function App() {
   return (
@@ -29,16 +27,16 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={"/carouselfeno.jpg"} />
+          <img src={"/carouselfeno.jpg"} alt="campaign"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/carouselproduct.jpg"} />
+          <img src={"/carouselproduct.jpg"} alt="campaign"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/carouseltech.png"} />
+          <img src={"/carouseltech.png"} alt="campaign"/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={"/carouselperwoll.png"} />
+          <img src={"/carouselperwoll.png"} alt="campaign"/>
         </SwiperSlide>
       </Swiper>
     </div>

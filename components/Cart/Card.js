@@ -38,10 +38,10 @@ export default function Card({ cartData }) {
     <Row className="card-container">
       {cartData.map((item, index) => (
         <>
-          <Col lg={8} md={12} className="mb-3">
+          <Col lg={8} md={12} className="mb-3" key={index}>
             <Col lg={10} md={12}>
               <div className="card-items">
-                <img src={item.product?.img} />
+                <img src={item.product?.img} alt={index} />
 
                 <div className="card-name-and-quantity">
                   <h5>{item.product?.name}</h5>
@@ -77,7 +77,7 @@ export default function Card({ cartData }) {
           <Col lg={2} md={12} className="card-price-and-quantity">
             <h5>Fiyat : {item.product?.price} TL</h5>
             Ücretsiz Kargo
-            <img src={"/yurtici.svg"} />
+            <img src={"/yurtici.svg"} alt="kargo" />
           </Col>
 
           <hr />

@@ -13,7 +13,7 @@ export default function Campaign() {
       <Row>
         {campaignObject.map((campaign,i) => (
           <Col md={3} xs={6} className="content" key={i}>
-            <img src={campaign.src} />
+            <img src={campaign.src} alt={i} />
             <span>{campaign.text}</span>
           </Col>
         ))}

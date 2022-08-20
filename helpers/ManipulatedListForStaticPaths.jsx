@@ -5,10 +5,10 @@ export const listManipulationForStaticPaths = () => {
   const getTopCategories = productData.map((product) => product.topCategory);
   const uniqueCategories = [...new Set(getTopCategories)];
   const categoryNames = List.map((element) => {
-    let str0 = element.test[0]?.name.replaceAll(" ", "");
-    let str1 = element.test[1]?.name.replaceAll(" ", "");
-    let str2 = element.test[2]?.name.replaceAll(" ", "");
-    let allData = [str0, str1, str2];
+    let line0 = element.test[0]?.name.replaceAll(" ", "");
+    let line1 = element.test[1]?.name.replaceAll(" ", "");
+    let line2 = element.test[2]?.name.replaceAll(" ", "");
+    let allData = [line0, line1, line2];
 
     return allData;
   });
@@ -22,5 +22,8 @@ export const listManipulationForStaticPaths = () => {
       .split(",");
   });
   const merged = [].concat.apply([], regex);
-  return merged;
+  const lastCheck = merged.filter(el=> el !== "")
+  const checkedCategories = [...new Set(lastCheck)];
+  return checkedCategories
+
 };

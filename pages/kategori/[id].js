@@ -20,6 +20,7 @@ export default function Category({ product, topCategory }) {
   const { currentUser } = useContext(AuthContext);
   const [favItems, setFavItems] = useState([]);
 
+
   useEffect(() => {
     const ref = collection(db, "fav");
     if (currentUser) {
@@ -39,8 +40,8 @@ export default function Category({ product, topCategory }) {
 
   const cardLoop = () => {
     return [
-      product.map((data) => <CardComponent data={data} />),
-      topCategory.map((data) => <CardComponent data={data} />),
+      product.map((data,i) => <CardComponent data={data} key={i}/>),
+      topCategory.map((data,i) => <CardComponent data={data} key={i}/>),
     ];
   };
 

@@ -31,8 +31,8 @@ export default function SearchInput() {
           onChange={(e) => setSearchParam(e.target.value)}
         />
         <div className="search-input-dropdown">
-          {filteredProducts.map((product) => (
-            <Link href={`/product/${product.id}`}>
+          {filteredProducts.map((product,i) => (
+            <Link href={`/product/${product.id}`} key={i}>
               <div
                 className="dropdown-content"
                 onClick={() => setSearchParam("")}

@@ -84,7 +84,7 @@ export default function Product({ product }) {
       <Container className="product-content">
         <Row>
           <Col md={6} className="product-content-left-side">
-            <img src={product.img} alt="" />
+            <img src={product.img} alt="image" />
           </Col>
           <Col md={6} className="product-content-right-side">
             <h4>{product.name}</h4>
@@ -108,7 +108,7 @@ export default function Product({ product }) {
               {product.desc}
             </div>
             <div className="free-shipping">
-              <img src="/ucretsizkargo.png" />
+              <img src="/ucretsizkargo.png" alt="kargo" />
             </div>
           </Col>
         </Row>

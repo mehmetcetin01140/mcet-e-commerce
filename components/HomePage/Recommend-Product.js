@@ -4,16 +4,16 @@ import CardComponent from "./Card";
 import recommendationData from "../../json/recommendation.json";
 export const products = recommendationData
   .slice(0, 4)
-  .map((data) => <CardComponent data={data} />);
+  .map((data,i) => <CardComponent data={data} key={i} />);
 const forWomen = recommendationData
   .slice(28, 36)
-  .map((data) => <CardComponent data={data} />);
+  .map((data,i) => <CardComponent data={data} key={i} />);
 const phones = recommendationData
   .slice(40, 48)
-  .map((data) => <CardComponent data={data} />);
+  .map((data,i) => <CardComponent data={data} key={i}/>);
 const firniture = recommendationData
   .slice(64, 72)
-  .map((data) => <CardComponent data={data} />);
+  .map((data,i) => <CardComponent data={data} key={i}/>);
 export default function RecommendProduct() {
   const recommended = [products, forWomen, phones, firniture];
 
