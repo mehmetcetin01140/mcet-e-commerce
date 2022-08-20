@@ -56,7 +56,7 @@ export default function Card({ cartData }) {
                     <span>{item.product?.quantity}</span>
                     <button
                       onClick={() =>
-                        increaseOrDecreaseQuantity(item.product?.id, -1)
+                        increaseOrDecreaseQuantity(item.product?.id, item.product.quantity>1 ?-1 :0)
                       }
                     >
                       -
