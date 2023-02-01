@@ -19,6 +19,7 @@ import {
 import { db } from "../../firebase";
 import { AuthContext } from "../../contexts/AuthContext";
 import { useRouter } from "next/router";
+import ImageWithFallback from "../../helpers/ImageWithFallback";
 function CardComponent({ data, fav }) {
   const [favItems, setFavItems] = useState([]);
   const { currentUser } = useContext(AuthContext);
@@ -98,7 +99,12 @@ function CardComponent({ data, fav }) {
                 color: "inherit",
               }}
             >
-              <img src={data.img} alt="" />
+         <ImageWithFallback
+    key={data.id}
+    layout="fill"
+    src={data.img}
+    fallbackSrc={"https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"}
+/>
             </a>
           </Link>
         </div>
