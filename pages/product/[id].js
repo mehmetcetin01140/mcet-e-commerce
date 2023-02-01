@@ -18,6 +18,7 @@ import { AuthContext } from "../../contexts/AuthContext";
 import Head from "next/head";
 import { products } from "../../components/HomePage/Recommend-Product";
 import { useRouter } from "next/router";
+import ImageWithFallback from "../../helpers/ImageWithFallback";
 export default function Product({ product }) {
   const [cartItems, setCartItems] = useState([]);
   const { currentUser } = useContext(AuthContext);
@@ -84,7 +85,7 @@ export default function Product({ product }) {
       <Container className="product-content">
         <Row>
           <Col md={6} className="product-content-left-side">
-            <img src={product.img} alt="image" />
+            <ImageWithFallback src={product.img} key={product.id}    fallbackSrc={"https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"}/>
           </Col>
           <Col md={6} className="product-content-right-side">
             <h4>{product.name}</h4>

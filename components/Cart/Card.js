@@ -14,6 +14,8 @@ import {
   deleteDoc,
 } from "firebase/firestore";
 import { db } from "../../firebase";
+import ImageWithFallback from "../../helpers/ImageWithFallback";
+
 export default function Card({ cartData }) {
   const increaseOrDecreaseQuantity = (id, increaseOrDecrease) => {
     const ref = collection(db, "cart");
@@ -41,7 +43,7 @@ export default function Card({ cartData }) {
           <Col lg={8} md={12} className="mb-3" key={index}>
             <Col lg={10} md={12}>
               <div className="card-items">
-                <img src={item.product?.img} alt={index} />
+              <ImageWithFallback src={item.product?.img} key={item.product?.id} fallbackSrc={"https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"}/>
 
                 <div className="card-name-and-quantity">
                   <h5>{item.product?.name}</h5>
