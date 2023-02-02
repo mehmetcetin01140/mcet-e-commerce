@@ -6,6 +6,8 @@ import Login from "../LoginSignup/login";
 import Offcanvas from "./Off-Canvas";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import ImageWithFallback from "../../helpers/ImageWithFallback";
+
 export default function SearchInput() {
   const [searchParam, setSearchParam] = useState("");
   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -38,7 +40,7 @@ export default function SearchInput() {
                 onClick={() => setSearchParam("")}
               >
                 <a style={{ textDecoration: "none", color: "inherit" }}>
-                  <img src={product.img} alt={product.name} />
+                <ImageWithFallback src={product.img} key={product.id} fallbackSrc={"https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"}/>
                   <span>{product.name}</span>
                 </a>
               </div>

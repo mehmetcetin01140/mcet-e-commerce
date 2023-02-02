@@ -99,12 +99,13 @@ function CardComponent({ data, fav }) {
                 color: "inherit",
               }}
             >
-         <ImageWithFallback
-    key={data.id}
-    layout="fill"
-    src={data.img}
-    fallbackSrc={"https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"}
-/>
+              <ImageWithFallback
+                key={data.id}
+                src={data.img}
+                fallbackSrc={
+                  "https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"
+                }
+              />
             </a>
           </Link>
         </div>

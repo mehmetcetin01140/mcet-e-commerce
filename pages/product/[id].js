@@ -85,7 +85,13 @@ export default function Product({ product }) {
       <Container className="product-content">
         <Row>
           <Col md={6} className="product-content-left-side">
-            <ImageWithFallback src={product.img} key={product.id}    fallbackSrc={"https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"}/>
+            <ImageWithFallback
+              src={product.img}
+              key={product.id}
+              fallbackSrc={
+                "https://www.poyrazbalikcilik.com/images/product/9158026963439-691-g%C3%B6rsel-loading.jpg"
+              }
+            />
           </Col>
           <Col md={6} className="product-content-right-side">
             <h4>{product.name}</h4>
